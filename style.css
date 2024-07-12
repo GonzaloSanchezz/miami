@@ -320,10 +320,10 @@ h1{
 }
 .imgsTitulo{
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 .imgTitulo{
-  height: 250px;
+  height: 220px;
   border-radius: 20px;
 }
 @media(max-width:900px){
