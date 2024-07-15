@@ -404,9 +404,6 @@ h1{
 .titulo{
   height: 300px;
 }
-.imagenTitulo{
-  height: 300px;
-}
 .imgLogo{
   height: 40px;
 }
@@ -427,13 +424,33 @@ h1{
   height: 65px;
   width: 65px;
 }
+.aMain{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(223, 223, 223);
+  width: 180px;
+  border-radius: 20px;
+  height: 270px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: "barlow";
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 13px;
+}
+.aMain span{
+  margin-top: 10px;
+}
 .imgsTitulo{
   display: flex;
-  gap: 10px;
 }
-.imgTitulo{
-  height: 270px;
-  border-radius: 20px;
+.imgMain{
+  height: 200px;
+  width: 130px;
+  border-radius: 10px;
 }
 .departmentsDiv{
   display: flex;
