@@ -39,6 +39,50 @@
   }
 }
 
+.card {
+  width: 150px;
+  height: 204px;
+  background: #2e2e2e;
+  border-radius: 15px;
+  box-shadow: 1px 5px 60px 0px black;
+  margin: 20px;
+ }
+ 
+ .card .card-border-top {
+  width: 60%;
+  height: 3%;
+  background: white;
+  margin: auto;
+  border-radius: 0px 0px 15px 15px;
+ }
+ 
+ .card span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+ }
+ 
+ .card .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 12px;
+ }
+ 
+ .card .img {
+  width: 70px;
+  height: 80px;
+  background: white;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+ }
+ 
 .popup {
     --burger-line-width: 1.125em;
     --burger-line-height: 0.125em;
@@ -252,7 +296,67 @@ body{
   z-index: 10;
   overflow-x: hidden;
 }
-
+.flag{
+  height: 20px;
+  width: 30px;
+}
+.flags{
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  background-color: rgb(223, 223, 223);
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  position: absolute;
+  top: 40px;
+}
+.flagsTitiulo{
+  font-size: 10px;
+  font-weight: 500;
+}
+.divFlags{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.textMainIndex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 130px;
+  margin-top: 200px;
+}
+h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 250px;
+  margin-bottom: 1000px;
+}
+h2{
+  text-align: center;
+}
+h3{
+  font-size: 30px;
+}
+.section1parrafo{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.subtituloIndex{
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
 .header{
   display: flex;
   justify-content: space-between;
@@ -284,6 +388,10 @@ h1{
   margin: 0px 20px 10px 30px;
   font-size: 30px;
 }
+.segundoH3Section1{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
 .main{
   display: flex;
   flex-direction: column;
@@ -304,7 +412,7 @@ h1{
 }
 .section1{
   position: relative;
-  height: 700px;
+  height: 1300px;
   width: 100%;
   background-color: rgb(223, 223, 223);
   z-index: 100;
@@ -332,8 +440,20 @@ h1{
   flex-direction: column;
 }
 .departmentsH2{
+  color: white;
+}
+.divH2Department{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.departmentH2Div{
   margin-top: 150px;
   margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .departmentImg{
   height: 350px;
@@ -367,6 +487,9 @@ h1{
 }
 .departmentList span svg{
   margin-right: 5px;
+}
+.divcard2{
+  display: flex;
 }
 
 @media(max-width:900px){
