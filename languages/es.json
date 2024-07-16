@@ -2,9 +2,30 @@
     "inicio":{
         "tituloInicio":"EXPLORA, SABOREA Y VIVE MIAMI CON NOSOTROS",
         "subtituloInicio": "DONDE LOS SUEÑOS SE HACEN REALIDAD",
-        "languageSelector": "SELECTOR DE IDIOMA"
-        },
+        "languageSelector": "SELECTOR DE IDIOMA",
+        "selectorDepartamentos":"DEPARTAMENTOS",
+        "selectorTransporte":"TRASPORTE DE PASAJEROS"
+    },
     "departamentos":{
-        "tituloDepartamentos":"CONOCE NUESTROS DEPARTAMENTOS DIPONIBLES"
+        "tituloDepartamentos":"CONOCE NUESTROS DEPARTAMENTOS DIPONIBLES",
+        "precio1":"Precio: 1000$",
+        "ubicacion1":"Ubicación: Algún lugar",
+        "habitaciones1":"Habitaciones: 2",
+        "precio2":"Precio: 1000$",
+        "ubicacion2":"Ubicación: Algún lugar",
+        "habitaciones2":"Habitaciones: 2",
+        "precio3":"Precio: 1000$",
+        "ubicacion3":"Ubicación: Algún lugar",
+        "habitaciones3":"Habitaciones: 2"
+    },
+    "quienesSomos":{
+        "tituloQuienesSomos":"¿QUIÉNES SOMOS?",
+        "parrafoQuienesSomos":"Somos una empresa dedicado a la venta de turismo receptivo y emisivo con 15 años de experiencia en la venta de servicios turísticos a nivel internacional con oficinas en Miami y Buenos Aires. <br> Nos avalan  mas de 15 años en la industria del turismo. <br> Nuestro objetivo es brindarle a los clientes a través de nuestros conocimientos, experiencia y creatividad el mejor producto para sus viajes. <br> Ofrecemos alquiler de departamentos, autos, venta de paquetes, armado a medida de itinerarios, reservas hoteleras, excursiones.",
+        "nuestroEquipo":"NUESTRO EQUIPO",
+        "puesto1":"puesto",
+        "puesto2":"puesto",
+        "puesto3":"puesto",
+        "puesto4":"puesto"
     }
 }
+

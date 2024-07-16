@@ -2,9 +2,29 @@
     "inicio":{
         "tituloInicio":"EXPLORE, SAVOR, AND LIVE MIAMI WITH US",
         "subtituloInicio": "WHERE DREAMS COME TRUE",
-        "languageSelector": "LANGUAGE SELECTOR"
+        "languageSelector": "LANGUAGE SELECTOR",
+        "selectorDepartamentos":"DEPARTMENTS",
+        "selectorTransporte":"PASSENGER TRANSPORT"
     },
     "departamentos":{
-        "tituloDepartamentos":"GET TO KNOW OUR AVAILABLE DEPARTMENTS"
+        "tituloDepartamentos":"GET TO KNOW OUR AVAILABLE DEPARTMENTS",
+        "precio1":"Price: 1000$",
+        "ubicacion1":"Location: Somewere",
+        "habitaciones1":"Bedrooms: 2",
+        "precio2":"Price: 1000$",
+        "ubicacion2":"Location: Somewere",
+        "habitaciones2":"Bedrooms: 2",
+        "precio3":"Price: 1000$",
+        "ubicacion3":"Location: Somewere",
+        "habitaciones3":"Bedrooms: 2"
+    },
+    "quienesSomos":{
+        "tituloQuienesSomos":"WHO WE ARE?",
+        "parrafoQuienesSomos":"We are a company dedicated to the sale of inbound and outbound tourism with 15 years of experience in the sale of tourist services internationally with offices in Miami and Buenos Aires <br>We are backed by more than 15 years in the tourism industry. <br>Our goal is to provide customers through our knowledge, experience and creativity with the best product for their trips.<br> We offer apartment rental, car rental, package sales, tailor-made itineraries, hotel reservations, excursions",
+        "nuestroEquipo":"NUESTRO EQUIPO",
+        "puesto1":"puesto",
+        "puesto2":"puesto",
+        "puesto3":"puesto",
+        "puesto4":"puesto"
     }
 }
