@@ -2,8 +2,10 @@
     margin: 0px;
     border: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-.container {
+
+.container1 {
   /* Basic dimensions and centering */
   position: relative;
   width: 100%;
@@ -290,6 +292,84 @@
   color: black;
   text-decoration: none;
 }
+.slider-frame {
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+  width: 300px;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+.divH2Transport{
+  height: 250px;
+}
+.transportH2{
+  color: black;
+  margin-bottom: 30px;
+  background-color: rgb(223, 223, 223);
+  padding: 10px;
+  border-radius: 10px;
+}
+.transport2H2{
+  color: white;
+  font-size: 15px;
+}
+.divCotizaciones{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(223, 223, 223);
+  padding: 30px;
+  border-radius: 20px;
+  width: 80%;
+}
+.sectionCotizaciones{
+  height: 1300px;
+}
+.spanCotizaciones{
+  margin-bottom: 10px;
+  color: black;
+  margin-top: 10px;
+  font-family: "barlow";
+  font-size: 15px;
+  font-weight: 300;
+}
+.cotizaciones{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
 
 /* ///////////////////////////////////////////// */
 
@@ -391,7 +471,7 @@ h1{
   font-size: 30px;
 }
 .segundoH3Section1{
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 30px;
 }
 .main{
@@ -399,7 +479,7 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 900px;
   color: white;
   padding-bottom: 100px;
 }
@@ -515,7 +595,7 @@ h1{
 }
 .h2Contactos{
   color: white;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 .div1Social{
   display: flex;
@@ -551,7 +631,11 @@ h1{
 .svgAlt{
   scale: 200%;
 }
-
+.sectionPreguntas{
+  height: 700px;
+  background-color: rgb(223, 223, 223);
+  width: 100%;
+}
 @media(max-width:900px){
   .popup{
       display: block;
