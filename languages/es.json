@@ -7,7 +7,6 @@
         "selectorTransporte":"TRASPORTE DE PASAJEROS"
     },
     "departamentos":{
-        "tituloDepartamentos":"CONOCE NUESTROS DEPARTAMENTOS DIPONIBLES",
         "precio1":"Precio: 1000$",
         "ubicacion1":"Ubicación: Algún lugar",
         "habitaciones1":"Habitaciones: 2",
@@ -16,7 +15,13 @@
         "habitaciones2":"Habitaciones: 2",
         "precio3":"Precio: 1000$",
         "ubicacion3":"Ubicación: Algún lugar",
-        "habitaciones3":"Habitaciones: 2"
+        "habitaciones3":"Habitaciones: 2",
+        "descripcion1":"Piso amueblado, con electrodomésticos y decoración limpia. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Este es un Penthouse con múltiples espacios de ocio, ideal para residentes que necesitan un amplio espacio.",
+        "descripcion2":"Piso amueblado, con electrodomésticos y decoración elegante. Cuenta con cocina equipada y múltiples espacios de ocio.",
+        "descripcion3":"Piso amueblado, con electrodomésticos. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Ideal para residentes que buscan comodidad y un ambiente decorativo fresco.",
+        "tituloDepartamentos":"DEPARTAMENTOS",
+        "subtituloDepartamentos":"CONOCE NUESTROS DEPARTAMENTOS DIPONIBLES"
+        
     },
     "quienesSomos":{
         "tituloQuienesSomos":"¿QUIÉNES SOMOS?",

@@ -7,7 +7,6 @@
         "selectorTransporte":"PASSENGER TRANSPORT"
     },
     "departamentos":{
-        "tituloDepartamentos":"GET TO KNOW OUR AVAILABLE DEPARTMENTS",
         "precio1":"Price: 1000$",
         "ubicacion1":"Location: Somewere",
         "habitaciones1":"Bedrooms: 2",
@@ -16,7 +15,12 @@
         "habitaciones2":"Bedrooms: 2",
         "precio3":"Price: 1000$",
         "ubicacion3":"Location: Somewere",
-        "habitaciones3":"Bedrooms: 2"
+        "habitaciones3":"Bedrooms: 2",
+        "descripcion1":"Furnished apartment, with appliances and clean decoration. It has a fully equipped kitchen and a balcony with sea views. This is a penthouse with multiple leisure spaces, ideal for residents who need ample space.",
+        "descripcion2":"Furnished apartment, with appliances and elegant decoration. It has an equipped kitchen and multiple leisure spaces.",
+        "descripcion3":"Furnished apartment, with appliances. It has a fully equipped kitchen and a balcony with sea views. Ideal for residents looking for comfort and a fresh decorative atmosphere.",
+        "tituloDepartamentos":"DEPARTMENTS",
+        "subtituloDepartamentos":"GET TO KNOW OUR AVAILABLE DEPARTMENTS"
     },
     "quienesSomos":{
         "tituloQuienesSomos":"WHO WE ARE?",
