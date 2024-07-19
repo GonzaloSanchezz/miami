@@ -798,6 +798,7 @@ h1{
   align-items: center;
   justify-content: center;
   height: 400px;
+  margin-top: 50px;
 }
 .departmentH2Div{
   margin-top: 150px;
@@ -820,6 +821,7 @@ h1{
   padding: 30px;
   border-radius: 40px;
   margin: 30px;
+  scale: 80%;
 }
 .departmentList{
   display: flex;
