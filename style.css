@@ -390,7 +390,7 @@ input:checked + .slide-container .nav label { display: block; }
   width: fit-content;
   display: flex;
   list-style: none;
-  
+  scale: 90%;
 }
 
 .menu a {
@@ -407,12 +407,15 @@ input:checked + .slide-container .nav label { display: block; }
   align-items: center;
   justify-content: center;
   gap: 5px;
-  padding: 12px 56px;
+  padding: 12px 53px;
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
   color: white;
   
+}
+.menu2 .link{
+  padding: 12px 30px;
 }
 
 .menu .link::after {
@@ -824,8 +827,24 @@ h1{
   background-color: rgb(223, 223, 223);
   padding: 30px;
   border-radius: 40px;
-  scale: 80%;
-  width: 110%;
+  scale: 90%;
+  width: 350px;
+}
+.botonDepartamentoSpan{
+  color: white;
+  background-color: black;
+  padding: 12px;
+  border-radius: 20px;
+}
+.aBotonDepartamento{
+  text-decoration: none;
+}
+.divBotonDepartamento{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .departmentList{
   display: flex;
@@ -954,29 +973,28 @@ select{
   justify-content: center;
   align-items: center;
 }
-.slider-frame2 {
+.slider-frame3 {
   height: auto;
-margin:50px auto 0;
-margin-top: 0px;
-overflow: hidden;
-width: 300px;
-border: 5px solid rgb(223, 223, 223);
-border-radius: 20px;
+  margin:50px auto 0;
+  margin-top: 0px;
+  overflow: hidden;
+  width: 90%;
+  border-radius: 10px;
 }
-.slider-frame2 ul {
+.slider-frame3 ul {
 	display: flex;
 	padding: 0;
 	width: 400%;
-	
 	animation: slide 15s infinite alternate ease-in-out;
 }
 
-.slider-frame2 li {
+.slider-frame3 li {
 	width: 100%;
 	list-style: none;
 }
-.slider-frame2 img {
+.slider-frame3 img {
 	width: 100%;
+  height: 100%;
 }
 .descriptionDeparment{
   margin-bottom: 30px;
@@ -988,8 +1006,65 @@ border-radius: 20px;
   font-family: "barlow";
 }
 .filtrosDepartamentos{
-  margin-bottom: 200px;
+
+  display: flex;
 }
+.SI{
+  display: block;
+}
+  @keyframes slide {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+  }
+
+
+.condominios{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.sliderDepartamentos{
+  margin-bottom: 20px;
+}
+.h3TT{
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(41, 40, 40);
+  padding: 10px;
+  color: rgb(224, 224, 224);
+  border-radius: 10px;
+  width: 90%;
+}
+#TT, #TP, #OC{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-family: "barlow", sans-serif;
+  background-color: rgb(223, 223, 223);
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.imgTT{
+  width: 90%;
+  border-radius: 10px;
+}
+
+
+
 @media(max-width:900px){
   .popup{
       display: block;

@@ -4,7 +4,7 @@
         "subtituloInicio": "DONDE LOS SUEÑOS SE HACEN REALIDAD",
         "languageSelector": "SELECTOR DE IDIOMA",
         "selectorDepartamentos":"DEPARTAMENTOS",
-        "selectorTransporte":"TRASPORTE DE PASAJEROS"
+        "selectorTransporte":"TRASPORTE"
     },
     "departamentos":{
         "precio1":"Precio: 1000$",
@@ -30,7 +30,8 @@
         "puesto1":"puesto",
         "puesto2":"puesto",
         "puesto3":"puesto",
-        "puesto4":"puesto"
+        "puesto4":"puesto",
+        "contactanos":"CONTACTANOS"
     }
 }
 

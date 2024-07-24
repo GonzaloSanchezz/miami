@@ -62,15 +62,15 @@
     </div>
     <div class="divH2Department">
         <div class="departmentH2Div">
-          <h2 data-section="departamentos" data-value="tituloDepartamentos" class="transportH2">DEPARTMENTS</h2>
-          <h2 data-section="departamentos" data-value="subtituloDepartamentos" class="departmentsH2">GET TO KNOW OUR AVAILABLE DEPARTMENTS</h2>
+          <h2 data-section="departamentos" data-value="tituloDepartamentos" class="transportH2">DEPARTAMENTOS</h2>
+          <h2 data-section="departamentos" data-value="subtituloDepartamentos" class="departmentsH2">CONOCE NUESTROS DEPARTAMENTOS DIPONIBLES</h2>
         </div>
     </div>
     <div class="filtrosDepartamentos">
       <div class="menu">
         <div class="item">
           <a href="javascript:void(0)" class="link">
-            <span> Filters </span>
+            <span> Filtro </span>
             <svg viewBox="0 0 360 360" xml:space="preserve">
               <g id="SVGRepo_iconCarrier">
                 <path
@@ -82,23 +82,82 @@
           </a>
           <div class="submenu">
             <div class="submenu-item">
-              <a href="javascript:void(0)" class="submenu-link"> First Location </a>
+              <a id="filtroHB" href="javascript:void(0)" class="submenu-link"> Hollywood Beach </a>
             </div>
             <div class="submenu-item">
-              <a href="javascript:void(0)" class="submenu-link"> Second Location </a>
+              <a id="filtroSI" href="javascript:void(0)" class="submenu-link"> Sunny Islands </a>
             </div>
             <div class="submenu-item">
-              <a href="javascript:void(0)" class="submenu-link"> Thirt Location </a>
+              <a href="javascript:void(0)" class="submenu-link"> Thirt Place </a>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="menu menu2">
+        <div class="item">
+          <a href="javascript:void(0)" class="link">
+            <span> Condominios </span>
+            <svg viewBox="0 0 360 360" xml:space="preserve">
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  id="XMLID_225_"
+                  d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <div class="submenu">
+            <div class="submenu-item">
+              <a id="filtroTT" href="javascript:void(0)" class="submenu-link"> The Tides  </a>
             </div>
             <div class="submenu-item">
-              <a href="javascript:void(0)" class="submenu-link"> Four Location </a>
+              <a id="filtroOC" href="javascript:void(0)" class="submenu-link"> Ocean Reserve </a>
+            </div>
+            <div class="submenu-item">
+              <a id="filtroTP" href="javascript:void(0)" class="submenu-link"> Thirt Place </a>
             </div>
           </div>
         </div>
       </div>      
     </div>
+    <div class="condominios">
+      <div  id="TT">
+        <h3 class="h3TT">THE TIDES ON HOLLYWOOD</h3>
+        <div class="slider-frame3 sliderDepartamentos">
+          <ul class="ulCarousel">
+              <li><img class="imgCarouselTransport" src="../images/condominio2/TT1.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio2/TT2.Jpeg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio2/TT3.png" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio2/TT4.png" alt=""></li>
+          </ul>
+        </div>
+        <img class="imgTT" src="../images/condominio2/TT5.png" alt="">
+      </div>
+      <div id="OC">
+        <h3 class="h3TT">OCEAN RESERVE CONDOMINIUM</h3>
+        <div class="slider-frame3 sliderDepartamentos">
+          <ul class="ulCarousel">
+              <li><img class="imgCarouselTransport" src="../images/condominio1/OC1.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio1/OC2.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio1/OC3.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio1/OC4.jpg" alt=""></li>
+          </ul>
+        </div>
+        <img class="imgTT" src="../images/condominio1/OC5.png" alt="">
+      </div>
+      <div id="TP">
+        <div class="slider-frame3 sliderDepartamentos">
+          <ul class="ulCarousel">
+              <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
+          </ul>
+        </div>
+      </div>
+      </div>
     <div class="departmentsDiv">
-        <div class="departmentItem">
+        <div class="departmentItem" id="HB">
           <div>
             <div class="carousel">
               <ul class="slides">
@@ -229,14 +288,20 @@
             </div>
           </div>
             <div class="departmentList">
-                <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Furnished apartment, with appliances and clean decoration. It has a fully equipped kitchen and a balcony with sea views. This is a penthouse with multiple leisure spaces, ideal for residents who need ample space.</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio1">Price: 1000$</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion1">Location: Somewere</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones1">Bedrooms: 1</p></span>
+                <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Piso amueblado, con electrodomésticos y decoración limpia. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Este es un Penthouse con múltiples espacios de ocio, ideal para residentes que necesitan un amplio espacio.</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio1">Precio: 1000$</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion1">Lugar: Hollywood Beach</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones1">Habitaciones: 1</p></span>
+                <div class="divBotonDepartamento">
+                  <a class="aBotonDepartamento" href="">
+                    <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
+                  </a>
+                </div>
             </div>
+          </div>
 
         </div>
-        <div class="departmentItem">
+        <div class="departmentItem" id="HB1">
           <div class="carousel">
             <ul class="slides">
               <input type="radio" name="radio-buttons1" id="img-11" checked />
@@ -365,13 +430,18 @@
             </ul>
           </div>
             <div class="departmentList">
-              <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion2">Furnished apartment, with appliances and elegant decoration. It has an equipped kitchen and multiple leisure spaces.</p></span>
-              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio2">Price: 1000$</p></span>
-              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion2">Location: Somewere</p></span>
-              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones2">Bedrooms: 2</p></span>
+              <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion2">Piso amueblado, con electrodomésticos y decoración elegante. Cuenta con cocina equipada y múltiples espacios de ocio.</p></span>
+              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio2">Precio: $1000</p></span>
+              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion2">Lugar: Hollywood Beach</p></span>
+              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones2">Habitaciones: 2</p></span>
+              <div class="divBotonDepartamento">
+                <a class="aBotonDepartamento" href="">
+                  <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
+                </a>
+              </div>
             </div>
         </div>
-        <div class="departmentItem">
+        <div class="departmentItem" id="HB2">
           <div class="carousel">
             <ul class="slides">
               <input type="radio" name="radio-buttons2" id="img-21" checked />
@@ -500,11 +570,445 @@
             </ul>
           </div>
             <div class="departmentList">
-              <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Furnished apartment, with appliances. It has a fully equipped kitchen and a balcony with sea views. Ideal for residents looking for comfort and a fresh decorative atmosphere.</p></span>
-              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio2">Price: 1000$</p></span>
-              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion2">Location: Somewere</p></span>
-              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones2">Bedrooms: 1</p></span>
+              <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Piso amueblado, con electrodomésticos. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Ideal para residentes que buscan comodidad y un ambiente decorativo fresco.</p></span>
+              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio2">Precio: $1000</p></span>
+              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion2">Lugar: Hollywood Beach</p></span>
+              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones2">Habitaciones: 1</p></span>
+              <div class="divBotonDepartamento">
+                <a class="aBotonDepartamento" href="">
+                  <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
+                </a>
+              </div>
             </div>
+        </div>
+        <div class="departmentItem" id="SI">
+          <div>
+            <div class="carousel">
+              <ul class="slides">
+                <input type="radio" name="radio-buttons3" id="img-31" checked />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento4/dpC1.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-33" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-32" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons3" id="img-32" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento4/dpC2.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-31" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-33" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons3" id="img-33" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento4/dpC3.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-32" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-34" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons3" id="img-34" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento4/dpC4.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-33" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-35" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons3" id="img-35" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento4/dpC5.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-34" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-36" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons3" id="img-36" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento4/dpC6.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-35" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-37" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons3" id="img-37" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento4/dpC7.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-36" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-38" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons3" id="img-38" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento4/dpC8.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-37" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-31" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <div class="carousel-dots">
+                  <label for="img-31" class="carousel-dot" id="img-dot-31"></label>
+                  <label for="img-32" class="carousel-dot" id="img-dot-32"></label>
+                  <label for="img-33" class="carousel-dot" id="img-dot-33"></label>
+                  <label for="img-34" class="carousel-dot" id="img-dot-34"></label>
+                  <label for="img-35" class="carousel-dot" id="img-dot-35"></label>
+                  <label for="img-36" class="carousel-dot" id="img-dot-36"></label>
+                  <label for="img-37" class="carousel-dot" id="img-dot-37"></label>
+                  <label for="img-38" class="carousel-dot" id="img-dot-38"></label>
+
+                </div>
+              </ul>
+            </div>
+          </div>
+            <div class="departmentList">
+                <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Piso amueblado, con electrodomésticos y decoración limpia. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Este es un Penthouse con múltiples espacios de ocio, ideal para residentes que necesitan un amplio espacio.</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio1">Precio: 1000$</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion1">Lugar: Sunny Islands</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones1">Habitaciones: 1</p></span>
+                <div class="divBotonDepartamento">
+                  <a class="aBotonDepartamento" href="">
+                    <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="departmentItem" id="SI1">
+          <div>
+            <div class="carousel">
+              <ul class="slides">
+                <input type="radio" name="radio-buttons4" id="img-41" checked />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento5/dpD1.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-43" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-42" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons4" id="img-42" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento5/dpD2.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-41" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-43" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons4" id="img-43" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento5/dpD3.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-42" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-44" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons4" id="img-44" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento5/dpD4.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-43" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-45" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons4" id="img-45" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento5/dpD5.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-44" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-46" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons4" id="img-46" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento5/dpD6.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-45" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-47" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons4" id="img-47" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento5/dpD7.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-46" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-48" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons4" id="img-48" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento5/dpD4.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-47" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-41" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <div class="carousel-dots">
+                  <label for="img-41" class="carousel-dot" id="img-dot-41"></label>
+                  <label for="img-42" class="carousel-dot" id="img-dot-42"></label>
+                  <label for="img-43" class="carousel-dot" id="img-dot-43"></label>
+                  <label for="img-44" class="carousel-dot" id="img-dot-44"></label>
+                  <label for="img-45" class="carousel-dot" id="img-dot-45"></label>
+                  <label for="img-46" class="carousel-dot" id="img-dot-46"></label>
+                  <label for="img-47" class="carousel-dot" id="img-dot-47"></label>
+                  <label for="img-48" class="carousel-dot" id="img-dot-48"></label>
+
+                </div>
+              </ul>
+            </div>
+          </div>
+            <div class="departmentList">
+                <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Piso amueblado, con electrodomésticos y decoración limpia. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Este es un Penthouse con múltiples espacios de ocio, ideal para residentes que necesitan un amplio espacio.</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio1">Precio: 1000$</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion1">Lugar: Sunny Islands</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones1">Habitaciones: 1</p></span>
+                <div class="divBotonDepartamento">
+                  <a class="aBotonDepartamento" href="">
+                    <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="departmentItem" id="SI2">
+          <div>
+            <div class="carousel">
+              <ul class="slides">
+                <input type="radio" name="radio-buttons5" id="img-51" checked />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento6/dpE1.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-53" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-52" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons5" id="img-52" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento6/dpE2.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-51" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-53" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons5" id="img-53" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento6/dpE3.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-52" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-54" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons5" id="img-54" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento6/dpE4.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-53" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-55" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons5" id="img-55" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento6/dpE5.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-54" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-56" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons5" id="img-56" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento6/dpE6.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-55" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-57" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons5" id="img-57" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento6/dpE7.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-56" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-58" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons5" id="img-58" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento6/dpE8.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-57" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-51" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <div class="carousel-dots">
+                  <label for="img-51" class="carousel-dot" id="img-dot-51"></label>
+                  <label for="img-52" class="carousel-dot" id="img-dot-52"></label>
+                  <label for="img-53" class="carousel-dot" id="img-dot-53"></label>
+                  <label for="img-54" class="carousel-dot" id="img-dot-54"></label>
+                  <label for="img-55" class="carousel-dot" id="img-dot-55"></label>
+                  <label for="img-56" class="carousel-dot" id="img-dot-56"></label>
+                  <label for="img-57" class="carousel-dot" id="img-dot-57"></label>
+                  <label for="img-58" class="carousel-dot" id="img-dot-58"></label>
+
+                </div>
+              </ul>
+            </div>
+          </div>
+            <div class="departmentList">
+                <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Piso amueblado, con electrodomésticos y decoración limpia. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Este es un Penthouse con múltiples espacios de ocio, ideal para residentes que necesitan un amplio espacio.</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio1">Precio: 1000$</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion1">Lugar: Sunny Islands</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones1">Habitaciones: 1</p></span>
+                <div class="divBotonDepartamento">
+                  <a class="aBotonDepartamento" href="">
+                    <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
+                  </a>
+                </div>
+            </div>
+          </div>
         </div>
     </div>
     <script src="../script2.js"></script>

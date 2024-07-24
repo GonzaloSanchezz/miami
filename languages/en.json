@@ -4,7 +4,7 @@
         "subtituloInicio": "WHERE DREAMS COME TRUE",
         "languageSelector": "LANGUAGE SELECTOR",
         "selectorDepartamentos":"DEPARTMENTS",
-        "selectorTransporte":"PASSENGER TRANSPORT"
+        "selectorTransporte":"TRANSPORT"
     },
     "departamentos":{
         "precio1":"Price: 1000$",
@@ -29,6 +29,7 @@
         "puesto1":"puesto",
         "puesto2":"puesto",
         "puesto3":"puesto",
-        "puesto4":"puesto"
+        "puesto4":"puesto",
+        "contactanos":"CONTACTANOS"
     }
 }
