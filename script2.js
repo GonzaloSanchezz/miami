@@ -132,3 +132,8 @@ document.getElementById('filtroTP').addEventListener('click', function() {
         image.style.display = 'none';
     }
 });
+
+window.onload = function() {
+    // Oculta el loader cuando todo está listo
+    document.querySelector('.loader').style.display = 'none';
+  };
