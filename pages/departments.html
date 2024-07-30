@@ -17,9 +17,15 @@
             <img class="imgLogo" src="../images/logoLomitas.png" alt="">
         </div>
         <ul class="ulHeader">
-            <li>PRIMER SECCIÓN</li>
-            <li>SEGUNDA SECCIÓN</li>
-            <li>TERCER SECCIÓN</li>
+          <a href="../index.html">
+            <li data-section="transporte" data-value="liInicio">INICIO</li>
+          </a>
+          <a href="../pages/departments.html">
+            <li data-section="transporte" data-value="liDepartamentos">DEPARTAMENTOS</li>
+          </a>
+          <a href="../pages/transport.html">
+            <li data-section="transporte" data-value="liTransporte">TRANSPORTE</li>
+          </a>
         </ul>
         <label class="popup">
           <input type="checkbox">
@@ -32,25 +38,25 @@
             <ul>
               <li>
                 <button>
-                  <span><a class="refwhite" href="#section2">HOME</a></span>
+                  <span><a class="refwhite" href="../index.html">HOME</a></span>
                 </button>
               </li>
               <li>
                 <button>
-                  <span><a class="refwhite" href="#section3">DEPARTMENTS</a></span>
+                  <span><a class="refwhite" href="">DEPARTMENTS</a></span>
                 </button>
               </li>
               <li>
                 <button>
-                  <span><a class="refwhite" href="#section4">TRANSPORT</a></span>
+                  <span><a class="refwhite" href="../pages/transport.html">TRANSPORT</a></span>
                 </button>
               </li>
             </ul>
           </nav>
         </label>
     </header>
-    <div id="flags" class="flags">
-      <span data-section="inicio" data-value="languageSelector" class="flagsTitiulo">LANGUAGE SELECTOR</span>
+    <div id="flags" class="flags falgsAlt">
+      <span data-section="inicio" data-value="languageSelector" class="flagsTitiulo">SELECTOR DE IDIOMA</span>
       <div class="divFlags">
         <div class="flagsItem" data-language="es">
           <img class="flag" src="../images/es.avif" alt="">
@@ -82,7 +88,7 @@
       <div class="menu">
         <div class="item">
           <a href="javascript:void(0)" class="link">
-            <span> Filtro </span>
+            <span data-section="departamentos" data-value="filtro"> Filtro </span>
             <svg viewBox="0 0 360 360" xml:space="preserve">
               <g id="SVGRepo_iconCarrier">
                 <path
@@ -100,7 +106,7 @@
               <a id="filtroSI" href="javascript:void(0)" class="submenu-link"> Sunny Islands </a>
             </div>
             <div class="submenu-item">
-              <a href="javascript:void(0)" class="submenu-link"> Thirt Place </a>
+              <a id="filtroNB" href="javascript:void(0)" class="submenu-link"> North Miami Beach </a>
             </div>
           </div>
         </div>
@@ -108,7 +114,7 @@
       <div class="menu menu2">
         <div class="item">
           <a href="javascript:void(0)" class="link">
-            <span> Condominios </span>
+            <span data-section="departamentos" data-value="condominios"> Condominios </span>
             <svg viewBox="0 0 360 360" xml:space="preserve">
               <g id="SVGRepo_iconCarrier">
                 <path
@@ -126,7 +132,7 @@
               <a id="filtroOC" href="javascript:void(0)" class="submenu-link"> Ocean Reserve </a>
             </div>
             <div class="submenu-item">
-              <a id="filtroTP" href="javascript:void(0)" class="submenu-link"> Thirt Place </a>
+              <a id="filtroTP" href="javascript:void(0)" class="submenu-link"> Casablanca </a>
             </div>
           </div>
         </div>
@@ -158,14 +164,16 @@
         <img class="imgTT" src="../images/condominio1/OC5.png" alt="">
       </div>
       <div id="TP">
+        <h3 class="h3TT">CASABLANCA</h3>
         <div class="slider-frame3 sliderDepartamentos">
           <ul class="ulCarousel">
-              <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio3/CB1.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio3/CB2.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio3/CB3.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio3/CB4.jpg" alt=""></li>
           </ul>
         </div>
+        <img class="imgTT" src="../images/condominio3/CB5.png" alt="">
       </div>
       </div>
     <div class="departmentsDiv">
@@ -593,6 +601,146 @@
               </div>
             </div>
         </div>
+        <div class="departmentItem" id="HB4">
+          <div class="carousel">
+            <ul class="slides">
+              <input type="radio" name="radio-buttons12" id="img-121" checked />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="../images/departamento3B/dp3B1.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-123" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-122" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons12" id="img-122" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="../images/departamento3B/dp3B2.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-121" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-123" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons12" id="img-123" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="../images/departamento3B/dp3B3.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-122" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-124" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons12" id="img-124" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="../images/departamento3B/dp3B4.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-123" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-125" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons12" id="img-125" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="../images/departamento3B/dp3B5.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-124" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-126" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons12" id="img-126" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="../images/departamento3B/dp3B6.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-125" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-127" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons12" id="img-127" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="../images/departamento3B/dp3B7.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-126" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-128" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons12" id="img-128" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="../images/departamento3B/dp3B8.jpg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-127" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-121" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <div class="carousel-dots">
+                <label for="img-121" class="carousel-dot" id="img-dot-121"></label>
+                <label for="img-122" class="carousel-dot" id="img-dot-122"></label>
+                <label for="img-123" class="carousel-dot" id="img-dot-123"></label>
+                <label for="img-124" class="carousel-dot" id="img-dot-124"></label>
+                <label for="img-125" class="carousel-dot" id="img-dot-125"></label>
+                <label for="img-126" class="carousel-dot" id="img-dot-126"></label>
+                <label for="img-127" class="carousel-dot" id="img-dot-127"></label>
+                <label for="img-128" class="carousel-dot" id="img-dot-128"></label>
+
+              </div>
+            </ul>
+          </div>
+            <div class="departmentList">
+              <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Piso amueblado, con electrodomésticos. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Ideal para residentes que buscan comodidad y un ambiente decorativo fresco.</p></span>
+              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio2">Precio: $1000</p></span>
+              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion2">Lugar: Hollywood Beach</p></span>
+              <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones2">Habitaciones: 1</p></span>
+              <div class="divBotonDepartamento">
+                <a class="aBotonDepartamento" href="">
+                  <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
+                </a>
+              </div>
+            </div>
+        </div>
         <div class="departmentItem" id="SI">
           <div>
             <div class="carousel">
@@ -725,9 +873,9 @@
           </div>
             <div class="departmentList">
                 <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Piso amueblado, con electrodomésticos y decoración limpia. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Este es un Penthouse con múltiples espacios de ocio, ideal para residentes que necesitan un amplio espacio.</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio1">Precio: 1000$</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion1">Lugar: Sunny Islands</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones1">Habitaciones: 1</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio4">Precio: 1000$</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion4">Lugar: Sunny Islands</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones4">Habitaciones: 1</p></span>
                 <div class="divBotonDepartamento">
                   <a class="aBotonDepartamento" href="">
                     <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
@@ -868,9 +1016,9 @@
           </div>
             <div class="departmentList">
                 <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Piso amueblado, con electrodomésticos y decoración limpia. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Este es un Penthouse con múltiples espacios de ocio, ideal para residentes que necesitan un amplio espacio.</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio1">Precio: 1000$</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion1">Lugar: Sunny Islands</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones1">Habitaciones: 1</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio5">Precio: 1000$</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion5">Lugar: Sunny Islands</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones5">Habitaciones: 1</p></span>
                 <div class="divBotonDepartamento">
                   <a class="aBotonDepartamento" href="">
                     <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
@@ -996,14 +1144,14 @@
                   </div>
                 </li>
                 <div class="carousel-dots">
-                  <label for="img-51" class="carousel-dot" id="img-dot-51"></label>
-                  <label for="img-52" class="carousel-dot" id="img-dot-52"></label>
-                  <label for="img-53" class="carousel-dot" id="img-dot-53"></label>
-                  <label for="img-54" class="carousel-dot" id="img-dot-54"></label>
-                  <label for="img-55" class="carousel-dot" id="img-dot-55"></label>
-                  <label for="img-56" class="carousel-dot" id="img-dot-56"></label>
-                  <label for="img-57" class="carousel-dot" id="img-dot-57"></label>
-                  <label for="img-58" class="carousel-dot" id="img-dot-58"></label>
+                  <label for="img-61" class="carousel-dot" id="img-dot-51"></label>
+                  <label for="img-62" class="carousel-dot" id="img-dot-52"></label>
+                  <label for="img-63" class="carousel-dot" id="img-dot-53"></label>
+                  <label for="img-64" class="carousel-dot" id="img-dot-54"></label>
+                  <label for="img-65" class="carousel-dot" id="img-dot-55"></label>
+                  <label for="img-66" class="carousel-dot" id="img-dot-56"></label>
+                  <label for="img-67" class="carousel-dot" id="img-dot-57"></label>
+                  <label for="img-68" class="carousel-dot" id="img-dot-58"></label>
 
                 </div>
               </ul>
@@ -1011,9 +1159,295 @@
           </div>
             <div class="departmentList">
                 <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Piso amueblado, con electrodomésticos y decoración limpia. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Este es un Penthouse con múltiples espacios de ocio, ideal para residentes que necesitan un amplio espacio.</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio1">Precio: 1000$</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion1">Lugar: Sunny Islands</p></span>
-                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones1">Habitaciones: 1</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio6">Precio: 1000$</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion6">Lugar: Sunny Islands</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones6">Habitaciones: 1</p></span>
+                <div class="divBotonDepartamento">
+                  <a class="aBotonDepartamento" href="">
+                    <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="departmentItem" id="NB1">
+          <div>
+            <div class="carousel">
+              <ul class="slides">
+                <input type="radio" name="radio-buttons6" id="img-61" checked />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento7/dpF1.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-63" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-62" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons6" id="img-62" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento7/dpF2.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-61" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-63" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons6" id="img-63" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento7/dpF3.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-62" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-64" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons6" id="img-64" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento7/dpF4.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-63" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-65" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons6" id="img-65" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento7/dpF5.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-64" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-66" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons6" id="img-66" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento7/dpF6.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-65" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-67" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons6" id="img-67" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento7/dpF7.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-66" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-68" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons6" id="img-68" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento7/dpF8.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-67" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-61" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <div class="carousel-dots">
+                  <label for="img-61" class="carousel-dot" id="img-dot-61"></label>
+                  <label for="img-62" class="carousel-dot" id="img-dot-62"></label>
+                  <label for="img-63" class="carousel-dot" id="img-dot-63"></label>
+                  <label for="img-64" class="carousel-dot" id="img-dot-64"></label>
+                  <label for="img-65" class="carousel-dot" id="img-dot-65"></label>
+                  <label for="img-66" class="carousel-dot" id="img-dot-66"></label>
+                  <label for="img-67" class="carousel-dot" id="img-dot-67"></label>
+                  <label for="img-68" class="carousel-dot" id="img-dot-68"></label>
+
+                </div>
+              </ul>
+            </div>
+          </div>
+            <div class="departmentList">
+                <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Piso amueblado, con electrodomésticos y decoración limpia. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Este es un Penthouse con múltiples espacios de ocio, ideal para residentes que necesitan un amplio espacio.</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio6">Precio: 1000$</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion6">Lugar: Sunny Islands</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones6">Habitaciones: 1</p></span>
+                <div class="divBotonDepartamento">
+                  <a class="aBotonDepartamento" href="">
+                    <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="departmentItem" id="NB2">
+          <div>
+            <div class="carousel">
+              <ul class="slides">
+                <input type="radio" name="radio-buttons7" id="img-71" checked />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento8/dpG1.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-73" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-72" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons7" id="img-72" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento8/dpG2.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-71" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-73" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons7" id="img-73" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento8/dpG3.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-72" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-74" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons7" id="img-74" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento8/dpG4.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-73" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-75" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons7" id="img-75" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento8/dpG5.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-74" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-76" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons7" id="img-76" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento8/dpG6.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-75" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-77" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons7" id="img-77" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento8/dpG7.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-76" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-78" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons7" id="img-78" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="../images/departamento8/dpG8.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-77" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-71" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <div class="carousel-dots">
+                  <label for="img-71" class="carousel-dot" id="img-dot-71"></label>
+                  <label for="img-72" class="carousel-dot" id="img-dot-72"></label>
+                  <label for="img-73" class="carousel-dot" id="img-dot-73"></label>
+                  <label for="img-74" class="carousel-dot" id="img-dot-74"></label>
+                  <label for="img-75" class="carousel-dot" id="img-dot-75"></label>
+                  <label for="img-76" class="carousel-dot" id="img-dot-76"></label>
+                  <label for="img-77" class="carousel-dot" id="img-dot-77"></label>
+                  <label for="img-78" class="carousel-dot" id="img-dot-78"></label>
+
+                </div>
+              </ul>
+            </div>
+          </div>
+            <div class="departmentList">
+                <span class="departmentText descriptionDeparment"><p data-section="departamentos" data-value="descripcion3">Piso amueblado, con electrodomésticos y decoración limpia. Cuenta con una cocina totalmente equipada y un balcón con vistas al mar. Este es un Penthouse con múltiples espacios de ocio, ideal para residentes que necesitan un amplio espacio.</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-moneybag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5z" /><path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /></svg><p data-section="departamentos" data-value="precio6">Precio: 1000$</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion6">Lugar: Sunny Islands</p></span>
+                <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones6">Habitaciones: 1</p></span>
                 <div class="divBotonDepartamento">
                   <a class="aBotonDepartamento" href="">
                     <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>

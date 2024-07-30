@@ -189,7 +189,7 @@
     --burger-enable-outline-offset: var(--burger-enable-outline-width);
     /* nav */
     --nav-padding-x: 0.25em;
-    --nav-padding-y: 0.625em;
+    --nav-padding-y: 0.125em;
     --nav-border-radius: 0.375em;
     --nav-border-color: black;
     --nav-border-width: 0.0625em;
@@ -200,7 +200,7 @@
     --nav-default-scale: .8;
     --nav-active-scale: 1;
     --nav-position-left: unset;
-    --nav-position-right: 0;
+    --nav-position-right: 35px;
     /* if you want to change sides just switch one property */
     /* from properties to "unset" and the other to 0 */
     /* title */
@@ -209,7 +209,7 @@
     --nav-title-padding-x: 1rem;
     --nav-title-padding-y: 0.25em;
     /* nav button */
-    --nav-button-padding-x: 1rem;
+    --nav-button-padding-x: 0.5rem;
     --nav-button-padding-y: 0.375em;
     --nav-button-border-radius: 0.375em;
     --nav-button-font-size: 12px;
@@ -229,6 +229,7 @@
     text-rendering: optimizeLegibility;
     position: relative;
     margin-right: 20px;
+    z-index: 1000;
   }
   
   .popup input {
@@ -289,10 +290,12 @@
     left: var(--nav-position-left);
     right: var(--nav-position-right);
     transition: var(--burger-transition);
-    margin-top: 10px;
-    width: 150px;
-    height: 67px;
+    margin-top: 0px;
+    width: 110px;
+    height: 77px;
     z-index: 100;
+    position: absolute;
+    top: 0px;
   }
   
   .popup-window legend {
@@ -463,7 +466,71 @@ input#img-14:checked ~ .carousel-dots label#img-dot-14,
 input#img-15:checked ~ .carousel-dots label#img-dot-15,
 input#img-16:checked ~ .carousel-dots label#img-dot-16,
 input#img-17:checked ~ .carousel-dots label#img-dot-17,
-input#img-18:checked ~ .carousel-dots label#img-dot-18 {
+input#img-18:checked ~ .carousel-dots label#img-dot-18,
+input#img-21:checked ~ .carousel-dots label#img-dot-21,
+input#img-22:checked ~ .carousel-dots label#img-dot-22,
+input#img-23:checked ~ .carousel-dots label#img-dot-23,
+input#img-24:checked ~ .carousel-dots label#img-dot-24,
+input#img-25:checked ~ .carousel-dots label#img-dot-25,
+input#img-26:checked ~ .carousel-dots label#img-dot-26,
+input#img-27:checked ~ .carousel-dots label#img-dot-27,
+input#img-28:checked ~ .carousel-dots label#img-dot-28,
+input#img-31:checked ~ .carousel-dots label#img-dot-31,
+input#img-32:checked ~ .carousel-dots label#img-dot-32,
+input#img-33:checked ~ .carousel-dots label#img-dot-33,
+input#img-34:checked ~ .carousel-dots label#img-dot-34,
+input#img-35:checked ~ .carousel-dots label#img-dot-35,
+input#img-36:checked ~ .carousel-dots label#img-dot-36,
+input#img-37:checked ~ .carousel-dots label#img-dot-37,
+input#img-38:checked ~ .carousel-dots label#img-dot-38,
+input#img-41:checked ~ .carousel-dots label#img-dot-41,
+input#img-42:checked ~ .carousel-dots label#img-dot-42,
+input#img-43:checked ~ .carousel-dots label#img-dot-43,
+input#img-44:checked ~ .carousel-dots label#img-dot-44,
+input#img-45:checked ~ .carousel-dots label#img-dot-45,
+input#img-46:checked ~ .carousel-dots label#img-dot-46,
+input#img-47:checked ~ .carousel-dots label#img-dot-47,
+input#img-48:checked ~ .carousel-dots label#img-dot-48,
+input#img-51:checked ~ .carousel-dots label#img-dot-51,
+input#img-52:checked ~ .carousel-dots label#img-dot-52,
+input#img-53:checked ~ .carousel-dots label#img-dot-53,
+input#img-54:checked ~ .carousel-dots label#img-dot-54,
+input#img-55:checked ~ .carousel-dots label#img-dot-55,
+input#img-56:checked ~ .carousel-dots label#img-dot-56,
+input#img-57:checked ~ .carousel-dots label#img-dot-57,
+input#img-58:checked ~ .carousel-dots label#img-dot-58,
+input#img-61:checked ~ .carousel-dots label#img-dot-61,
+input#img-62:checked ~ .carousel-dots label#img-dot-62,
+input#img-63:checked ~ .carousel-dots label#img-dot-63,
+input#img-64:checked ~ .carousel-dots label#img-dot-64,
+input#img-65:checked ~ .carousel-dots label#img-dot-65,
+input#img-66:checked ~ .carousel-dots label#img-dot-66,
+input#img-67:checked ~ .carousel-dots label#img-dot-67,
+input#img-68:checked ~ .carousel-dots label#img-dot-68,
+input#img-71:checked ~ .carousel-dots label#img-dot-71,
+input#img-72:checked ~ .carousel-dots label#img-dot-72,
+input#img-73:checked ~ .carousel-dots label#img-dot-73,
+input#img-74:checked ~ .carousel-dots label#img-dot-74,
+input#img-75:checked ~ .carousel-dots label#img-dot-75,
+input#img-76:checked ~ .carousel-dots label#img-dot-76,
+input#img-77:checked ~ .carousel-dots label#img-dot-77,
+input#img-78:checked ~ .carousel-dots label#img-dot-78,
+input#img-81:checked ~ .carousel-dots label#img-dot-81,
+input#img-82:checked ~ .carousel-dots label#img-dot-82,
+input#img-83:checked ~ .carousel-dots label#img-dot-83,
+input#img-84:checked ~ .carousel-dots label#img-dot-84,
+input#img-85:checked ~ .carousel-dots label#img-dot-85,
+input#img-86:checked ~ .carousel-dots label#img-dot-86,
+input#img-87:checked ~ .carousel-dots label#img-dot-87,
+input#img-88:checked ~ .carousel-dots label#img-dot-88,
+input#img-121:checked ~ .carousel-dots label#img-dot-121,
+input#img-122:checked ~ .carousel-dots label#img-dot-122,
+input#img-123:checked ~ .carousel-dots label#img-dot-123,
+input#img-124:checked ~ .carousel-dots label#img-dot-124,
+input#img-125:checked ~ .carousel-dots label#img-dot-125,
+input#img-126:checked ~ .carousel-dots label#img-dot-216,
+input#img-127:checked ~ .carousel-dots label#img-dot-127,
+input#img-128:checked ~ .carousel-dots label#img-dot-128 {
 	opacity: 1;
 }
 
@@ -713,8 +780,33 @@ width: 100%;
 100% {margin-left: -300%;}
 }
 
+.slider-frame2 {
+  width: 300px;
+    height: auto;
+  margin:50px auto 0;
+  overflow: hidden;
+  }
+  
+  .slider-frame2 ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  
+  animation: slide 20s infinite alternate ease-in-out;
+  }
+  
+  .slider-frame2 li {
+  width: 100%;
+  list-style: none;
+  }
+  
+  .slider-frame2 img {
+  width: 100%;
+  }
 /* ///////////////////////////////////////////// */
-
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: "Barlow", sans-serif;
   z-index: 10;
@@ -727,7 +819,8 @@ body{
 }
 .flags{
   display: flex;
-  margin-top: 50px;
+  margin-top: 90px;
+  position: absolute;
   flex-direction: column;
   background-color: rgb(223, 223, 223);
   padding: 10px;
@@ -735,7 +828,7 @@ body{
   color: black;
   position: absolute;
   top: 40px;
-  z-index: 10;
+  z-index: 0;
 }
 .flagsTitiulo{
   font-size: 10px;
@@ -792,8 +885,8 @@ h3{
   color: whitesmoke;
 }
 .logo{
-  margin-left: 5px;
-  margin-top: 5px;
+  margin-left: 8px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -829,7 +922,7 @@ h1{
   height: 300px;
 }
 .imgLogo{
-  height: 80px;
+  height: 90px;
 }
 .section1{
   position: relative;
@@ -890,10 +983,10 @@ h1{
   align-items: center;
   justify-content: center;
   height: 400px;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 .departmentH2Div{
-  margin-top: 150px;
+  margin-top: 170px;
   margin-bottom: 150px;
   display: flex;
   flex-direction: column;
@@ -1002,12 +1095,12 @@ h1{
 }
 .divH2Transport{
   height: 250px;
-  width: 100%;
+
 }
 .transportH2{
   width: 100%;
   color: black;
-  margin-bottom: 30px;
+
   background-color: rgb(223, 223, 223);
   padding: 10px;
   border-top: 4px solid black;
@@ -1017,7 +1110,7 @@ h1{
 }
 .transport2H2{
   color: white;
-  font-size: 15px;
+  font-size: 20px;
 }
 .divCotizaciones{
   margin-top: 100px;
@@ -1148,9 +1241,51 @@ select{
   width: 90%;
   border-radius: 10px;
 }
-
-
-
+#resultadoCotizacion{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 20px;
+}
+#buttonCotizacion{
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #121212;
+  color: white;
+  border-radius: 13px;
+  width: 200px;
+  align-items: center;
+  cursor: pointer;
+}
+#divButtonContinuar{
+  margin-top: 20px;
+  display: none;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+}
+.buttonContinuar{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.svgTransporte{
+  height: 20px;
+}
+.inputTime{
+  padding: 5px;
+  border-radius: 10px;
+}
+.ulHeader a{
+  text-decoration: none;
+  color: white;
+}
 @media(max-width:900px){
   .popup{
       display: block;

@@ -8,20 +8,54 @@
     },
     "departamentos":{
         "precio1":"Price: 1000$",
-        "ubicacion1":"Location: Somewere",
+        "ubicacion1":"Location: Hollywood Beach",
         "habitaciones1":"Bedrooms: 2",
         "precio2":"Price: 1000$",
-        "ubicacion2":"Location: Somewere",
+        "ubicacion2":"Location: Hollywood Beach",
         "habitaciones2":"Bedrooms: 2",
         "precio3":"Price: 1000$",
-        "ubicacion3":"Location: Somewere",
+        "ubicacion3":"Location: Hollywood Beach",
         "habitaciones3":"Bedrooms: 2",
         "descripcion1":"Furnished apartment, with appliances and clean decoration. It has a fully equipped kitchen and a balcony with sea views. This is a penthouse with multiple leisure spaces, ideal for residents who need ample space.",
         "descripcion2":"Furnished apartment, with appliances and elegant decoration. It has an equipped kitchen and multiple leisure spaces.",
         "descripcion3":"Furnished apartment, with appliances. It has a fully equipped kitchen and a balcony with sea views. Ideal for residents looking for comfort and a fresh decorative atmosphere.",
         "tituloDepartamentos":"DEPARTMENTS",
-        "subtituloDepartamentos":"GET TO KNOW OUR AVAILABLE DEPARTMENTS"
+        "subtituloDepartamentos":"GET TO KNOW OUR AVAILABLE DEPARTMENTS",
+        "precio4":"Price: 1000$",
+        "ubicacion4":"Location: Sunny Islands",
+        "habitaciones4":"Bedrooms: 2",
+        "precio5":"Price: 1000$",
+        "ubicacion5":"Location: Sunny Islands",
+        "habitaciones5":"Bedrooms: 2",
+        "precio6":"Price: 1000$",
+        "ubicacion6":"Location: Sunny Islands",
+        "habitaciones6":"Bedrooms: 2",
+        "condominios":"Condominiums",
+        "filtro":"Filter"
     },
+
+
+
+    "transporte":{
+        "liInicio":"HOME",
+        "liDepartamentos":"DEPARTMENTS",
+        "liTransporte":"TRANSPORT",
+        "tituloTransporte":"TRANSPORT",
+        "tituloCotizador":"QUOTE YOUR TRIP",
+        "subtituloTransporte":"TRAVEL SAFELY AND COMFORTABLY WITH US",
+        "primerUbicacion":"Departure location",
+        "segundaUbicacion":"Arrival Point",
+        "tercerUbicacion":"Number of people",
+        "cuartaUbicacion":"Type of transfer",
+        "quintaUbicacion":"Departure time",
+        "cotiza":"QUOTE",
+        "continua":"CONTINUE",
+        "tipoDeViaje1":"One-way trip",
+        "tipoDeViaje2":"Round trip"
+    },
+
+
+
     "quienesSomos":{
         "tituloQuienesSomos":"WHO WE ARE?",
         "parrafoQuienesSomos":"We are a company dedicated to the sale of inbound and outbound tourism with 15 years of experience in the sale of tourist services internationally with offices in Miami and Buenos Aires <br>We are backed by more than 15 years in the tourism industry. <br>Our goal is to provide customers through our knowledge, experience and creativity with the best product for their trips.<br> We offer apartment rental, car rental, package sales, tailor-made itineraries, hotel reservations, excursions",

@@ -16,22 +16,22 @@ flagsElement.addEventListener("click", (e) => {
     changeLanguage(e.target.parentElement.dataset.language)
 })
 
-document.getElementById("filtroHB").onclick = function() {
+document.getElementById("filtroHB").onclick = function(){
     var elemento = document.getElementById("SI");
-    if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("SI1");
-    if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("SI2");
-    if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
@@ -46,25 +46,47 @@ document.getElementById("filtroHB").onclick = function() {
     var elemento = document.getElementById("HB2");
     if (elemento.style.display === "none") {
         elemento.style.display = "block";
+    }
+    var elemento = document.getElementById("HB4");
+    if (elemento.style.display === "none") {
+        elemento.style.display = "block";
+    }
+    var elemento = document.getElementById("NB1");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
+    } else {
+        elemento.style.display = "none";
+    }
+    var elemento = document.getElementById("NB2");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
+    } else {
+        elemento.style.display = "none";
     }
 };
 
 document.getElementById("filtroSI").onclick = function() {
     var elemento = document.getElementById("HB");
-    if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
+    } else {
+        elemento.style.display = "none";
+    }
+    var elemento = document.getElementById("HB4");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("HB1");
-    if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("HB2");
-    if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
@@ -77,6 +99,71 @@ document.getElementById("filtroSI").onclick = function() {
         elemento.style.display = "block";
     }
     var elemento = document.getElementById("SI2");
+    if (elemento.style.display === "none") {
+        elemento.style.display = "block";
+    }
+    var elemento = document.getElementById("NB1");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
+    } else {
+        elemento.style.display = "none";
+    }
+    var elemento = document.getElementById("NB2");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
+    } else {
+        elemento.style.display = "none";
+    }
+};
+
+document.getElementById("filtroNB").onclick = function() {
+    var elemento = document.getElementById("HB");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
+    } else {
+        elemento.style.display = "none";
+    }
+    var elemento = document.getElementById("HB4");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none"
+    } else {
+        elemento.style.display = "none";
+    }
+    var elemento = document.getElementById("HB1");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
+    } else {
+        elemento.style.display = "none";
+    }
+    var elemento = document.getElementById("HB2");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
+    } else {
+        elemento.style.display = "none";
+    }
+    var elemento = document.getElementById("SI");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
+    } else {
+        elemento.style.display = "none";
+    }
+    var elemento = document.getElementById("SI1");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
+    } else {
+        elemento.style.display = "none";
+    }
+    var elemento = document.getElementById("SI2");
+    if (elemento.style.display === "block") {
+        elemento.style.display = "none";
+    } else {
+        elemento.style.display = "none";
+    }
+    var elemento = document.getElementById("NB1");
+    if (elemento.style.display === "none") {
+        elemento.style.display = "block";
+    }
+    var elemento = document.getElementById("NB2");
     if (elemento.style.display === "none") {
         elemento.style.display = "block";
     }
@@ -136,4 +223,6 @@ document.getElementById('filtroTP').addEventListener('click', function() {
 window.onload = function() {
     // Oculta el loader cuando todo está listo
     document.querySelector('.loader').style.display = 'none';
-  };
+};
+
+
