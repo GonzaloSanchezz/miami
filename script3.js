@@ -29,7 +29,7 @@ function calcularTotal() {
     const primeraUbicacion = parseInt(document.getElementById('primera-ubicacion').value);
     const segundaUbicacion = parseInt(document.getElementById('segunda-ubicacion').value);
     const cantidadPersonas = parseInt(document.getElementById('cantidadPersonas').value);
-    const total = primeraUbicacion + segundaUbicacion + cantidadPersonas;
+    const total = (primeraUbicacion + segundaUbicacion) * cantidadPersonas ;
     document.getElementById('resultadoCotizacion').innerText = 'Total: $ ' + total;
 }
 
@@ -46,7 +46,7 @@ document.getElementById('buttonContinuar').addEventListener("click", function(){
     tipoViaje = document.getElementById('tipoViaje').options[document.getElementById('tipoViaje').selectedIndex].text;
     startLocation = document.getElementById('primera-ubicacion').options[document.getElementById('primera-ubicacion').selectedIndex].text;
     endLocation = document.getElementById('segunda-ubicacion').options[document.getElementById('segunda-ubicacion').selectedIndex].text;
-    const total = primeraUbicacion + segundaUbicacion + cantidadPersonas;
+    const total = (primeraUbicacion + segundaUbicacion) * cantidadPersonas ;
     document.getElementById('resultadoCotizacion').innerText = 'Total: $ ' + total;
     let message = 
     `Cotización de mi viaje:

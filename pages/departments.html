@@ -10,23 +10,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body id="body" class="container1">  
-    <header class="header">
+    <header data-aos="zoom-in" class="header">
         <div class="logo">
-            <img class="imgLogo" src="../images/logoLomitas.png" alt="">
+            <img class="imgLogo" src="../images/logoLomitas.png" alt="logo">
         </div>
-        <ul class="ulHeader">
-          <a href="../index.html">
-            <li data-section="transporte" data-value="liInicio">INICIO</li>
-          </a>
-          <a href="../pages/departments.html">
-            <li data-section="transporte" data-value="liDepartamentos">DEPARTAMENTOS</li>
-          </a>
-          <a href="../pages/transport.html">
-            <li data-section="transporte" data-value="liTransporte">TRANSPORTE</li>
-          </a>
-        </ul>
         <label class="popup">
           <input type="checkbox">
           <div class="burger" tabindex="0">
@@ -55,24 +46,24 @@
           </nav>
         </label>
     </header>
-    <div id="flags" class="flags falgsAlt">
+    <div data-aos="zoom-in" id="flags" class="flags falgsAlt">
       <span data-section="inicio" data-value="languageSelector" class="flagsTitiulo">SELECTOR DE IDIOMA</span>
       <div class="divFlags">
         <div class="flagsItem" data-language="es">
-          <img class="flag" src="../images/es.avif" alt="">
+          <img class="flag" src="../images/es.avif" alt="bandera español">
         </div>
         <div class="flagsItem" data-language="en">
-          <img class="flag" src="../images/en.avif" alt="">
+          <img class="flag" src="../images/en.avif" alt=" bandera ingles">
         </div>
       </div>
     </div>
-    <div class="divH2Department">
+    <div data-aos="zoom-in" class="divH2Department">
         <div class="departmentH2Div">
           <h2 data-section="departamentos" data-value="tituloDepartamentos" class="transportH2">DEPARTAMENTOS</h2>
           <h2 data-section="departamentos" data-value="subtituloDepartamentos" class="departmentsH2">CONOCE NUESTROS DEPARTAMENTOS DIPONIBLES</h2>
         </div>
     </div>
-    <div id="loader" class="loader">
+    <div data-aos="zoom-in" id="loader" class="loader">
       <div class="loader-inner">
         <div class="loader-block"></div>
         <div class="loader-block"></div>
@@ -84,7 +75,19 @@
         <div class="loader-block"></div>
       </div>
     </div>
-    <div class="filtrosDepartamentos">
+    <div class="infodepartamentos">
+      <p>Contamos con estudios y departamentos de 1 y 2 dormitorios, sobre la playa, en Sunny Isles Beach, en Hollywood Beach y North Miami beach totalmente amoblados y listos para pasar unas vacaciones perfectas frente al mar. Solicita tu cotizacion a los siguientes numeros.</p>
+      <a href="https://wa.link/f7x9su">
+        <button class="buttonNumero"><svg class="svgAlt2" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 31C23.732 31 30 24.732 30 17C30 9.26801 23.732 3 16 3C8.26801 3 2 9.26801 2 17C2 19.5109 2.661 21.8674 3.81847 23.905L2 31L9.31486 29.3038C11.3014 30.3854 13.5789 31 16 31ZM16 28.8462C22.5425 28.8462 27.8462 23.5425 27.8462 17C27.8462 10.4576 22.5425 5.15385 16 5.15385C9.45755 5.15385 4.15385 10.4576 4.15385 17C4.15385 19.5261 4.9445 21.8675 6.29184 23.7902L5.23077 27.7692L9.27993 26.7569C11.1894 28.0746 13.5046 28.8462 16 28.8462Z" fill="#BFC8D0"></path> <path d="M28 16C28 22.6274 22.6274 28 16 28C13.4722 28 11.1269 27.2184 9.19266 25.8837L5.09091 26.9091L6.16576 22.8784C4.80092 20.9307 4 18.5589 4 16C4 9.37258 9.37258 4 16 4C22.6274 4 28 9.37258 28 16Z" fill="url(#paint0_linear_87_7264)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 30C23.732 30 30 23.732 30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 18.5109 2.661 20.8674 3.81847 22.905L2 30L9.31486 28.3038C11.3014 29.3854 13.5789 30 16 30ZM16 27.8462C22.5425 27.8462 27.8462 22.5425 27.8462 16C27.8462 9.45755 22.5425 4.15385 16 4.15385C9.45755 4.15385 4.15385 9.45755 4.15385 16C4.15385 18.5261 4.9445 20.8675 6.29184 22.7902L5.23077 26.7692L9.27993 25.7569C11.1894 27.0746 13.5046 27.8462 16 27.8462Z" fill="white"></path> <path d="M12.5 9.49989C12.1672 8.83131 11.6565 8.8905 11.1407 8.8905C10.2188 8.8905 8.78125 9.99478 8.78125 12.05C8.78125 13.7343 9.52345 15.578 12.0244 18.3361C14.438 20.9979 17.6094 22.3748 20.2422 22.3279C22.875 22.2811 23.4167 20.0154 23.4167 19.2503C23.4167 18.9112 23.2062 18.742 23.0613 18.696C22.1641 18.2654 20.5093 17.4631 20.1328 17.3124C19.7563 17.1617 19.5597 17.3656 19.4375 17.4765C19.0961 17.8018 18.4193 18.7608 18.1875 18.9765C17.9558 19.1922 17.6103 19.083 17.4665 19.0015C16.9374 18.7892 15.5029 18.1511 14.3595 17.0426C12.9453 15.6718 12.8623 15.2001 12.5959 14.7803C12.3828 14.4444 12.5392 14.2384 12.6172 14.1483C12.9219 13.7968 13.3426 13.254 13.5313 12.9843C13.7199 12.7145 13.5702 12.305 13.4803 12.05C13.0938 10.953 12.7663 10.0347 12.5 9.49989Z" fill="white"></path> <defs> <linearGradient id="paint0_linear_87_7264" x1="26.5" y1="7" x2="4" y2="28" gradientUnits="userSpaceOnUse"> <stop stop-color="#5BD066"></stop> <stop offset="1" stop-color="#27B43E"></stop> </linearGradient> </defs> </g></svg> +5491154503003</button>
+      </a>
+      <a href="https://wa.link/7z2ggg">
+        <button class="buttonNumero"><svg class="svgAlt2" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 31C23.732 31 30 24.732 30 17C30 9.26801 23.732 3 16 3C8.26801 3 2 9.26801 2 17C2 19.5109 2.661 21.8674 3.81847 23.905L2 31L9.31486 29.3038C11.3014 30.3854 13.5789 31 16 31ZM16 28.8462C22.5425 28.8462 27.8462 23.5425 27.8462 17C27.8462 10.4576 22.5425 5.15385 16 5.15385C9.45755 5.15385 4.15385 10.4576 4.15385 17C4.15385 19.5261 4.9445 21.8675 6.29184 23.7902L5.23077 27.7692L9.27993 26.7569C11.1894 28.0746 13.5046 28.8462 16 28.8462Z" fill="#BFC8D0"></path> <path d="M28 16C28 22.6274 22.6274 28 16 28C13.4722 28 11.1269 27.2184 9.19266 25.8837L5.09091 26.9091L6.16576 22.8784C4.80092 20.9307 4 18.5589 4 16C4 9.37258 9.37258 4 16 4C22.6274 4 28 9.37258 28 16Z" fill="url(#paint0_linear_87_7264)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 30C23.732 30 30 23.732 30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 18.5109 2.661 20.8674 3.81847 22.905L2 30L9.31486 28.3038C11.3014 29.3854 13.5789 30 16 30ZM16 27.8462C22.5425 27.8462 27.8462 22.5425 27.8462 16C27.8462 9.45755 22.5425 4.15385 16 4.15385C9.45755 4.15385 4.15385 9.45755 4.15385 16C4.15385 18.5261 4.9445 20.8675 6.29184 22.7902L5.23077 26.7692L9.27993 25.7569C11.1894 27.0746 13.5046 27.8462 16 27.8462Z" fill="white"></path> <path d="M12.5 9.49989C12.1672 8.83131 11.6565 8.8905 11.1407 8.8905C10.2188 8.8905 8.78125 9.99478 8.78125 12.05C8.78125 13.7343 9.52345 15.578 12.0244 18.3361C14.438 20.9979 17.6094 22.3748 20.2422 22.3279C22.875 22.2811 23.4167 20.0154 23.4167 19.2503C23.4167 18.9112 23.2062 18.742 23.0613 18.696C22.1641 18.2654 20.5093 17.4631 20.1328 17.3124C19.7563 17.1617 19.5597 17.3656 19.4375 17.4765C19.0961 17.8018 18.4193 18.7608 18.1875 18.9765C17.9558 19.1922 17.6103 19.083 17.4665 19.0015C16.9374 18.7892 15.5029 18.1511 14.3595 17.0426C12.9453 15.6718 12.8623 15.2001 12.5959 14.7803C12.3828 14.4444 12.5392 14.2384 12.6172 14.1483C12.9219 13.7968 13.3426 13.254 13.5313 12.9843C13.7199 12.7145 13.5702 12.305 13.4803 12.05C13.0938 10.953 12.7663 10.0347 12.5 9.49989Z" fill="white"></path> <defs> <linearGradient id="paint0_linear_87_7264" x1="26.5" y1="7" x2="4" y2="28" gradientUnits="userSpaceOnUse"> <stop stop-color="#5BD066"></stop> <stop offset="1" stop-color="#27B43E"></stop> </linearGradient> </defs> </g></svg> +5491152480671</button>
+      </a>
+      <a href="https://walink.co/75fde0">
+        <button class="buttonNumero"><svg class="svgAlt2" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 31C23.732 31 30 24.732 30 17C30 9.26801 23.732 3 16 3C8.26801 3 2 9.26801 2 17C2 19.5109 2.661 21.8674 3.81847 23.905L2 31L9.31486 29.3038C11.3014 30.3854 13.5789 31 16 31ZM16 28.8462C22.5425 28.8462 27.8462 23.5425 27.8462 17C27.8462 10.4576 22.5425 5.15385 16 5.15385C9.45755 5.15385 4.15385 10.4576 4.15385 17C4.15385 19.5261 4.9445 21.8675 6.29184 23.7902L5.23077 27.7692L9.27993 26.7569C11.1894 28.0746 13.5046 28.8462 16 28.8462Z" fill="#BFC8D0"></path> <path d="M28 16C28 22.6274 22.6274 28 16 28C13.4722 28 11.1269 27.2184 9.19266 25.8837L5.09091 26.9091L6.16576 22.8784C4.80092 20.9307 4 18.5589 4 16C4 9.37258 9.37258 4 16 4C22.6274 4 28 9.37258 28 16Z" fill="url(#paint0_linear_87_7264)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 30C23.732 30 30 23.732 30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 18.5109 2.661 20.8674 3.81847 22.905L2 30L9.31486 28.3038C11.3014 29.3854 13.5789 30 16 30ZM16 27.8462C22.5425 27.8462 27.8462 22.5425 27.8462 16C27.8462 9.45755 22.5425 4.15385 16 4.15385C9.45755 4.15385 4.15385 9.45755 4.15385 16C4.15385 18.5261 4.9445 20.8675 6.29184 22.7902L5.23077 26.7692L9.27993 25.7569C11.1894 27.0746 13.5046 27.8462 16 27.8462Z" fill="white"></path> <path d="M12.5 9.49989C12.1672 8.83131 11.6565 8.8905 11.1407 8.8905C10.2188 8.8905 8.78125 9.99478 8.78125 12.05C8.78125 13.7343 9.52345 15.578 12.0244 18.3361C14.438 20.9979 17.6094 22.3748 20.2422 22.3279C22.875 22.2811 23.4167 20.0154 23.4167 19.2503C23.4167 18.9112 23.2062 18.742 23.0613 18.696C22.1641 18.2654 20.5093 17.4631 20.1328 17.3124C19.7563 17.1617 19.5597 17.3656 19.4375 17.4765C19.0961 17.8018 18.4193 18.7608 18.1875 18.9765C17.9558 19.1922 17.6103 19.083 17.4665 19.0015C16.9374 18.7892 15.5029 18.1511 14.3595 17.0426C12.9453 15.6718 12.8623 15.2001 12.5959 14.7803C12.3828 14.4444 12.5392 14.2384 12.6172 14.1483C12.9219 13.7968 13.3426 13.254 13.5313 12.9843C13.7199 12.7145 13.5702 12.305 13.4803 12.05C13.0938 10.953 12.7663 10.0347 12.5 9.49989Z" fill="white"></path> <defs> <linearGradient id="paint0_linear_87_7264" x1="26.5" y1="7" x2="4" y2="28" gradientUnits="userSpaceOnUse"> <stop stop-color="#5BD066"></stop> <stop offset="1" stop-color="#27B43E"></stop> </linearGradient> </defs> </g></svg> +13053361521</button>
+      </a>
+    </div>
+    <div data-aos="zoom-in" class="filtrosDepartamentos">
       <div class="menu">
         <div class="item">
           <a href="javascript:void(0)" class="link">
@@ -139,45 +142,48 @@
       </div>      
     </div>
     <div class="condominios">
-      <div  id="TT">
+      <div data-aos="zoom-in" id="TT">
         <h3 class="h3TT">THE TIDES ON HOLLYWOOD</h3>
         <div class="slider-frame3 sliderDepartamentos">
           <ul class="ulCarousel">
-              <li><img class="imgCarouselTransport" src="../images/condominio2/TT1.jpg" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/condominio2/TT2.Jpeg" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/condominio2/TT3.png" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/condominio2/TT4.png" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio2/TT1.jpg" alt="the tides 1"></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio2/TT2.Jpeg" alt="the tides 2"></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio2/TT3.png" alt="the tides 3"></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio2/TT4.png" alt="the tides 4"></li>
           </ul>
         </div>
-        <img class="imgTT" src="../images/condominio2/TT5.png" alt="">
+        <img class="imgTT" src="../images/condominio2/TT5.png" alt="a">
       </div>
-      <div id="OC">
+      <div data-aos="zoom-in" id="OC">
         <h3 class="h3TT">OCEAN RESERVE CONDOMINIUM</h3>
         <div class="slider-frame3 sliderDepartamentos">
           <ul class="ulCarousel">
-              <li><img class="imgCarouselTransport" src="../images/condominio1/OC1.jpg" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/condominio1/OC2.jpg" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/condominio1/OC3.jpg" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/condominio1/OC4.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio1/OC1.jpg" alt="ocean reserve 1"></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio1/OC2.jpg" alt="ocean reserve 2"></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio1/OC3.jpg" alt="ocean reserve 3"></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio1/OC4.jpg" alt="ocean reserve 4"></li>
           </ul>
         </div>
-        <img class="imgTT" src="../images/condominio1/OC5.png" alt="">
+        <img class="imgTT" src="../images/condominio1/OC5.png" alt="s">
       </div>
-      <div id="TP">
+      <div data-aos="zoom-in" id="TP">
         <h3 class="h3TT">CASABLANCA</h3>
         <div class="slider-frame3 sliderDepartamentos">
           <ul class="ulCarousel">
-              <li><img class="imgCarouselTransport" src="../images/condominio3/CB1.jpg" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/condominio3/CB2.jpg" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/condominio3/CB3.jpg" alt=""></li>
-              <li><img class="imgCarouselTransport" src="../images/condominio3/CB4.jpg" alt=""></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio3/CB1.jpg" alt="casablanca 1"></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio3/CB2.jpg" alt="casablanca 2"></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio3/CB3.jpg" alt="casasblanca 3"></li>
+              <li><img class="imgCarouselTransport" src="../images/condominio3/CB4.jpg" alt="casablanca 4"></li>
           </ul>
         </div>
-        <img class="imgTT" src="../images/condominio3/CB5.png" alt="">
+        <img class="imgTT" src="../images/condominio3/CB5.png" alt="d">
       </div>
       </div>
+    <div>
+      
+    </div>
     <div class="departmentsDiv">
-        <div class="departmentItem" id="HB">
+        <div data-aos="zoom-in" class="departmentItem" id="HB">
           <div>
             <div class="carousel">
               <ul class="slides">
@@ -313,7 +319,7 @@
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion1">Lugar: Hollywood Beach</p></span>
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones1">Habitaciones: 1</p></span>
                 <div class="divBotonDepartamento">
-                  <a class="aBotonDepartamento" href="">
+                  <a class="aBotonDepartamento" href="https://walink.co/75fde0">
                     <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
                   </a>
                 </div>
@@ -321,7 +327,7 @@
           </div>
 
         </div>
-        <div class="departmentItem" id="HB1">
+        <div data-aos="zoom-in" class="departmentItem" id="HB1">
           <div class="carousel">
             <ul class="slides">
               <input type="radio" name="radio-buttons1" id="img-11" checked />
@@ -455,13 +461,13 @@
               <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion2">Lugar: Hollywood Beach</p></span>
               <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones2">Habitaciones: 2</p></span>
               <div class="divBotonDepartamento">
-                <a class="aBotonDepartamento" href="">
+                <a class="aBotonDepartamento" href="https://walink.co/75fde0">
                   <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
                 </a>
               </div>
             </div>
         </div>
-        <div class="departmentItem" id="HB2">
+        <div data-aos="zoom-in" class="departmentItem" id="HB2">
           <div class="carousel">
             <ul class="slides">
               <input type="radio" name="radio-buttons2" id="img-21" checked />
@@ -595,13 +601,13 @@
               <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion2">Lugar: Hollywood Beach</p></span>
               <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones2">Habitaciones: 1</p></span>
               <div class="divBotonDepartamento">
-                <a class="aBotonDepartamento" href="">
+                <a class="aBotonDepartamento" href="https://walink.co/75fde0">
                   <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
                 </a>
               </div>
             </div>
         </div>
-        <div class="departmentItem" id="HB4">
+        <div data-aos="zoom-in" class="departmentItem" id="HB4">
           <div class="carousel">
             <ul class="slides">
               <input type="radio" name="radio-buttons12" id="img-121" checked />
@@ -735,13 +741,13 @@
               <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion2">Lugar: Hollywood Beach</p></span>
               <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones2">Habitaciones: 1</p></span>
               <div class="divBotonDepartamento">
-                <a class="aBotonDepartamento" href="">
+                <a class="aBotonDepartamento" href="https://walink.co/75fde0">
                   <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
                 </a>
               </div>
             </div>
         </div>
-        <div class="departmentItem" id="SI">
+        <div data-aos="zoom-in" class="departmentItem" id="SI">
           <div>
             <div class="carousel">
               <ul class="slides">
@@ -877,14 +883,14 @@
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion4">Lugar: Sunny Islands</p></span>
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones4">Habitaciones: 1</p></span>
                 <div class="divBotonDepartamento">
-                  <a class="aBotonDepartamento" href="">
+                  <a class="aBotonDepartamento" href="https://walink.co/75fde0">
                     <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
                   </a>
                 </div>
             </div>
           </div>
         </div>
-        <div class="departmentItem" id="SI1">
+        <div data-aos="zoom-in" class="departmentItem" id="SI1">
           <div>
             <div class="carousel">
               <ul class="slides">
@@ -1020,14 +1026,14 @@
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion5">Lugar: Sunny Islands</p></span>
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones5">Habitaciones: 1</p></span>
                 <div class="divBotonDepartamento">
-                  <a class="aBotonDepartamento" href="">
+                  <a class="aBotonDepartamento" href="https://walink.co/75fde0">
                     <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
                   </a>
                 </div>
             </div>
           </div>
         </div>
-        <div class="departmentItem" id="SI2">
+        <div data-aos="zoom-in" class="departmentItem" id="SI2">
           <div>
             <div class="carousel">
               <ul class="slides">
@@ -1163,14 +1169,14 @@
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion6">Lugar: Sunny Islands</p></span>
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones6">Habitaciones: 1</p></span>
                 <div class="divBotonDepartamento">
-                  <a class="aBotonDepartamento" href="">
+                  <a class="aBotonDepartamento" href="https://walink.co/75fde0">
                     <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
                   </a>
                 </div>
             </div>
           </div>
         </div>
-        <div class="departmentItem" id="NB1">
+        <div data-aos="zoom-in" class="departmentItem" id="NB1">
           <div>
             <div class="carousel">
               <ul class="slides">
@@ -1306,14 +1312,14 @@
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion6">Lugar: Sunny Islands</p></span>
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones6">Habitaciones: 1</p></span>
                 <div class="divBotonDepartamento">
-                  <a class="aBotonDepartamento" href="">
+                  <a class="aBotonDepartamento" href="https://walink.co/75fde0">
                     <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
                   </a>
                 </div>
             </div>
           </div>
         </div>
-        <div class="departmentItem" id="NB2">
+        <div data-aos="zoom-in" class="departmentItem" id="NB2">
           <div>
             <div class="carousel">
               <ul class="slides">
@@ -1449,7 +1455,7 @@
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-navigation"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18.5l7.265 2.463c.196 .077 .42 .032 .57 -.116a.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275c-.07 .2 -.017 .424 .135 .572c.15 .148 .374 .193 .57 .116l7.265 -2.463" /></svg><p data-section="departamentos" data-value="ubicacion6">Lugar: Sunny Islands</p></span>
                 <span class="departmentText"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-bed"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M22 17v-3h-20" /><path d="M2 8v9" /><path d="M12 14h10v-2a3 3 0 0 0 -3 -3h-7v5z" /></svg> <p data-section="departamentos" data-value="habitaciones6">Habitaciones: 1</p></span>
                 <div class="divBotonDepartamento">
-                  <a class="aBotonDepartamento" href="">
+                  <a class="aBotonDepartamento" href="https://walink.co/75fde0">
                     <span class="botonDepartamentoSpan">CONSULTAR DISPONIBILIDAD</span>
                   </a>
                 </div>
@@ -1457,6 +1463,10 @@
           </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="../script2.js"></script>
   </body>
 </html>

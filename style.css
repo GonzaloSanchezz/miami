@@ -130,7 +130,7 @@
 
 .card {
   width: 130px;
-  height: 180px;
+  height: 190px;
   background: #2e2e2e;
   border-radius: 15px;
   box-shadow: 1px 5px 60px 0px black;
@@ -225,7 +225,6 @@
   /* popup settings 👆 */
   
   .popup {
-    display: none;
     text-rendering: optimizeLegibility;
     position: relative;
     margin-right: 20px;
@@ -291,7 +290,7 @@
     right: var(--nav-position-right);
     transition: var(--burger-transition);
     margin-top: 0px;
-    width: 110px;
+    width: 120px;
     height: 77px;
     z-index: 100;
     position: absolute;
@@ -560,7 +559,7 @@ input:checked + .slide-container .nav label { display: block; }
   align-items: center;
   justify-content: center;
   gap: 5px;
-  padding: 12px 53px;
+  padding: 12px 58px;
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
@@ -814,6 +813,7 @@ body{
   width: 100%;
 }
 .flag{
+  cursor: pointer;
   height: 20px;
   width: 30px;
 }
@@ -828,7 +828,7 @@ body{
   color: black;
   position: absolute;
   top: 40px;
-  z-index: 0;
+  z-index: 100;
 }
 .flagsTitiulo{
   font-size: 10px;
@@ -898,6 +898,15 @@ h3{
   margin-right: 20px;
   font-size: 15px;
 }
+.ulHeader li{
+  background-color: rgb(223, 223, 223);
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+}
+.ulHeader li:hover{
+  scale: 120%;
+}
 h1{
   display: flex;
   justify-content: center;
@@ -926,7 +935,7 @@ h1{
 }
 .section1{
   position: relative;
-  height: 1300px;
+  height: 1200px;
   width: 100%;
   background-color: rgb(223, 223, 223);
   z-index: 100;
@@ -974,6 +983,7 @@ h1{
   flex-direction: column;
   width: 100%;
   align-items: center;
+  margin-top: 50px;
 }
 .departmentsH2{
   color: white;
@@ -1002,7 +1012,7 @@ h1{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin-bottom: 100px;
   background-color: rgb(223, 223, 223);
   padding: 30px;
   border-radius: 40px;
@@ -1046,9 +1056,10 @@ h1{
 }
 .divcard2{
   display: flex;
+  justify-content: center;
 }
 .sectionContactos{
-  height: 800px;
+  height: 1000px;
 }
 .h2Contactos{
   color: white;
@@ -1113,12 +1124,11 @@ h1{
   font-size: 20px;
 }
 .divCotizaciones{
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   background-color: rgb(223, 223, 223);
-  padding: 30px;
   width: 100%;
+  margin-top: 30px;
 }
 .sectionCotizaciones{
   height: 400px;
@@ -1127,7 +1137,8 @@ h1{
   align-items: center;
 }
 .section2Cotizaciones{
-  height: 700px;
+  background-color: rgb(223, 223, 223);
+  height: 600px;
   width: 100%;
 }
 .transport2H2{
@@ -1185,11 +1196,18 @@ select{
   font-family: "barlow";
 }
 .filtrosDepartamentos{
-
   display: flex;
 }
 .SI{
   display: block;
+}
+.ImgMarca{
+  height: 200px;
+}
+.divMarca{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
   @keyframes slide {
   0% {margin-left: 0;}
@@ -1286,6 +1304,87 @@ select{
   text-decoration: none;
   color: white;
 }
+.slider-frame2{
+  border-radius: 30px;
+}
+.imgViajes{
+  height: 210px;
+  border-radius: 15px;
+}
+.pViajes{
+  width: 90%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.sectionViajes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divViajes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  padding: 20px;
+  background-color: rgb(223, 223, 223);
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding-top: 15px;
+}
+.buttonViaje{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.spanViajes{
+  margin-top: 10px;
+}
+.infodepartamentos{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.infodepartamentos a{
+  text-decoration: none;
+  height: 100%;
+}
+.infodepartamentos p{
+  text-align: center;
+  color: white;
+  font-family: "barlow";
+  font-weight: 200;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.buttonNumero{
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.svgAlt2{
+  height: 20px;
+}
+.persona{
+  height: 95px;
+  border-radius: 15px;
+}
+.card span{
+  margin-top: 10px;
+}
 @media(max-width:900px){
   .popup{
       display: block;
@@ -1295,5 +1394,66 @@ select{
   }
   .logo{
       gap: 10px;
+  }
+}
+@media(min-width:400px){
+  .section1parrafo{
+    width: 300px;
+  }
+}
+@media(min-width:600px){
+  .section1parrafo{
+    width: 500px;
+  }
+  .section1{
+    height: 1100px;
+  }
+  .condominios{
+    width: 60%;
+    height: 60%;
+  }
+  .imgLogo{
+    height: 120px;
+    margin-top: 35px;
+  }
+  .divViajes{
+    width: 500px;
+    height: 500px;
+  }
+  .imgViajes{
+    width: 450px;
+    height: 320px;
+  }
+}
+@media(max-width:330px){
+  .divViajes{
+    width: 270px;
+  }
+  .divViajes{
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+  .imgViajes{
+    width: 240px;
+    height: 180px;
+  }
+}
+@media(min-width:800px){
+  .departmentItem{
+    width: 500px;
+    height: 980px;
+    padding-top: 100px;
+  }
+  .carousel{
+    margin-bottom: 100px;
+    scale: 130%;
+  }
+  .condominios{
+    width: 40%;
+    height: 40%;
+  }
+  .imgLogo{
+    height: 150px;
+    margin-top: 65px;
   }
 }

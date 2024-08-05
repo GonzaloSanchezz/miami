@@ -10,23 +10,14 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <!-- aos -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body class="container1">
-    <header class="header">
+    <header data-aos="zoom-in" class="header">
         <div class="logo">
             <img class="imgLogo" src="../images/logoLomitas.png" alt="">
         </div>
-        <ul class="ulHeader">
-          <a href="../index.html">
-            <li data-section="transporte" data-value="liInicio">INICIO</li>
-          </a>
-          <a href="../pages/departments.html">
-            <li data-section="transporte" data-value="liDepartamentos">DEPARTAMENTOS</li>
-          </a>
-          <a href="../pages/transport.html">
-            <li data-section="transporte" data-value="liTransporte">TRANSPORTE</li>
-          </a>
-        </ul>
         <label class="popup">
           <input type="checkbox">
           <div class="burger" tabindex="0">
@@ -55,7 +46,7 @@
           </nav>
         </label>
     </header>
-    <div id="flags" class="flags flagsAlt">
+    <div data-aos="zoom-in" id="flags" class="flags flagsAlt">
       <span data-section="inicio" data-value="languageSelector" class="flagsTitiulo">SELECTOR DE IDIOMA</span>
       <div class="divFlags">
         <div class="flagsItem" data-language="es">
@@ -66,46 +57,81 @@
         </div>
       </div>
     </div>
-    <div class="divH2Department">
+    <div data-aos="zoom-in" class="divH2Department">
         <div class="departmentH2Div">
           <h2 data-section="transporte" data-value="tituloTransporte" class="transportH2">TRANSPORTE</h2>
           <h2 data-section="transporte" data-value="subtituloTransporte" class="departmentsH2">VIAJA SEGURO Y CÓMODO CON NOSOTROS</h2>
         </div>
     </div>
-    <section class="sectionCotizaciones">
+    <!-- <section data-aos="zoom-in" class="sectionCotizaciones">
       <div class="slider-frame2">
         <ul class="ulCarousel">
-            <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
-            <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
-            <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
-            <li><img class="imgCarouselTransport" src="../images/imgExample.jpg" alt=""></li>
+            <li><img class="imgCarouselTransport" src="../images/sliderSuburban/sub1.jpeg" alt=""></li>
+            <li><img class="imgCarouselTransport" src="../images/sliderSuburban/sub2.jpg" alt=""></li>
+            <li><img class="imgCarouselTransport" src="../images/sliderSuburban/sub3.jpg" alt=""></li>
+            <li><img class="imgCarouselTransport" src="../images/sliderSuburban/sub4.jpeg" alt=""></li>
         </ul>
       </div>
+    </section> -->
+    <section class="sectionViajes">
+      <div class="divViajes">
+        <img class="imgViajes" src="../images/viajes1.jpg" alt="">
+        <p data-section="transporte" data-value="traslado1" class="pViajes">Traslado desde/hacia Miami Beach - Aeropuerto de Miami</p>
+        <span class="spanViajes">30$</span>
+        <span data-section="transporte" data-value="porPersona">Por persona</span>
+        <a href="#sectionCotiza">
+          <button data-section="transporte" data-value="reserva" class="buttonViaje">Reservá tu viaje</button>
+        </a>
+      </div>
+      <div class="divViajes">
+        <img class="imgViajes" src="../images/viajes2.jpg" alt="">
+        <p data-section="transporte" data-value="traslado2" class="pViajes">Traslado desde/hacia Miami Beach - Puerto de Miami</p>
+        <span class="spanViajes">30$</span>
+        <span data-section="transporte" data-value="porPersona">Por persona</span>
+        <a href="#sectionCotiza">
+          <button data-section="transporte" data-value="reserva"   class="buttonViaje">Reservá tu viaje</button>
+        </a>
+      </div>
+      <div class="divViajes">
+        <img class="imgViajes" src="../images/viajes3.jpg" alt="">
+        <p data-section="transporte" data-value="traslado3" class="pViajes">Traslado desde/hacia Sunny Islands/Hollywood Beach - Aeropuerto de Miami</p>
+        <span class="spanViajes">35$</span>
+        <span data-section="transporte" data-value="porPersona">Por persona</span>
+        <a href="#sectionCotiza">
+          <button data-section="transporte" data-value="reserva" class="buttonViaje">Reservá tu viaje</button>
+        </a>
+      </div>
     </section>
-    <section class="section2Cotizaciones">
+    <section id="sectionCotiza" class="section2Cotizaciones">
       <div class="divCotizaciones">
         <h2 data-section="transporte" data-value="tituloCotizador" class="transport2H2">COTIZÁ TU VIAJE</h2>
-        <div class="cotizaciones">
+        <div data-aos="zoom-in" class="cotizaciones">
           <span data-section="transporte" data-value="primerUbicacion" class="spanCotizaciones">Lugar de salida</span>
           <select id="primera-ubicacion" name="AAA" id="">
            <option value=""></option>
-           <option value="10">Primer Ubicación</option>
-           <option value="10">Segunda Ubicación</option>
-           <option value="10">Tercer Ubicación</option>
+           <option data-section="transporte" data-value="aeropuerto" value="15">Aeropuerto de Miami</option>
+           <option data-section="transporte" data-value="puerto" value="15">Puerto de Miami</option>
+           <option value="15">Miami Beach</option>
+           <option value="20">Sunny Island</option>
+           <option value="20">Hollywood Beach</option>
           </select>
           <span data-section="transporte" data-value="segundaUbicacion" class="spanCotizaciones">Lugar de llegada</span>
           <select id="segunda-ubicacion" name="AAA" id="">
            <option value=""></option>
-           <option value="10">Primer Ubicación</option>
-           <option value="30">Segunda Ubicación</option>
-           <option value="10">Tercer Ubicación</option>
+           <option data-section="transporte" data-value="aeropuerto" value="15">Aeropuerto</option>
+           <option data-section="transporte" data-value="puerto" value="15">Puerto de Miami</option>
+           <option value="15">Miami Beach</option>
+           <option value="20">Sunny Island</option>
+           <option value="20">Hollywood Beach</option>
           </select>
           <span data-section="transporte" data-value="tercerUbicacion" class="spanCotizaciones">Cantidad de personas</span>
           <select name="BBB" id="cantidadPersonas">
            <option value="0"></option>
-           <option value="25">1</option>
-           <option value="50">2</option>
-           <option value="75">3</option>
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+           <option value="5">5</option>
           </select>
           <span data-section="transporte" data-value="cuartaUbicacion" class="spanCotizaciones">Tipo de viaje</span>
           <select name="CCC" id="tipoViaje">
@@ -124,6 +150,10 @@
         </div>
       </div> 
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="../script3.js"></script>
   </body>
 </html>
