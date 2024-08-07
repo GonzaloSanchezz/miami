@@ -4,7 +4,7 @@
         "subtituloInicio": "DONDE LOS SUEÑOS SE HACEN REALIDAD",
         "languageSelector": "SELECTOR DE IDIOMA",
         "selectorDepartamentos":"DEPARTAMENTOS",
-        "selectorTransporte":"TRANSPORTE"
+        "selectorTransporte":"TRASLADOS"
     },
     "departamentos":{
         "precio1":"Precio: 1000$",
@@ -52,8 +52,8 @@
     "transporte":{
         "liInicio":"INICIO",
         "liDepartamentos":"DEPARTAMENTOS",
-        "liTransporte":"TRANSPORTE",
-        "tituloTransporte":"TRANSPORTE",
+        "liTransporte":"TRASLADOS",
+        "tituloTransporte":"TRASLADOS",
         "subtituloTransporte":"VIAJA SEGURO Y CÓMODO CON NOSOTROS",
         "tituloCotizador":"COTIZÁ TU VIAJE",
         "primerUbicacion":"Lugar de salida",

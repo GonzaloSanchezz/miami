@@ -4,7 +4,7 @@
         "subtituloInicio": "WHERE DREAMS COME TRUE",
         "languageSelector": "LANGUAGE SELECTOR",
         "selectorDepartamentos":"DEPARTMENTS",
-        "selectorTransporte":"TRANSPORT"
+        "selectorTransporte":"TRANSFERS"
     },
     "departamentos":{
         "precio1":"Price: 1000$",
@@ -55,8 +55,8 @@
     "transporte":{
         "liInicio":"HOME",
         "liDepartamentos":"DEPARTMENTS",
-        "liTransporte":"TRANSPORT",
-        "tituloTransporte":"TRANSPORT",
+        "liTransporte":"TRANSFERS",
+        "tituloTransporte":"TRANSFERS",
         "tituloCotizador":"QUOTE YOUR TRIP",
         "subtituloTransporte":"TRAVEL SAFELY AND COMFORTABLY WITH US",
         "primerUbicacion":"Departure location",

@@ -845,8 +845,8 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 130px;
-  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-top: 50px;
 }
 h1{
   display: flex;
@@ -923,7 +923,7 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 900px;
+  height: 2000px;
   color: white;
   padding-bottom: 100px;
 }
@@ -954,29 +954,34 @@ h1{
   display: flex;
   flex-direction: column;
   background-color: rgb(223, 223, 223);
-  width: 140px;
-  border-radius: 20px;
-  height: 220px;
+  width: 280px;
+  border-radius: 30px;
+  height: 390px;
   margin-left: 10px;
   margin-right: 10px;
   text-decoration: none;
   color: black;
   font-family: "barlow";
-  justify-content: center;
+  justify-content: baseline;
   align-items: center;
   font-weight: 500;
   font-size: 11px;
 }
 .aMain span{
-  margin-top: 10px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 300;
 }
 .imgsTitulo{
   display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 .imgMain{
-  height: 160px;
-  width: 100px;
-  border-radius: 10px;
+  height: 300px;
+  width: 280px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 .departmentsDiv{
   display: flex;
@@ -1384,6 +1389,31 @@ select{
 }
 .card span{
   margin-top: 10px;
+}
+.slider-frame4 {
+  height: auto;
+  margin:50px auto 0;
+  margin-top: 0px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 100px;
+  border-top: 5px rgb(223, 223, 223) solid;
+  border-bottom: 5px rgb(223, 223, 223) solid;
+}
+.slider-frame4 ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider-frame4 li {
+	width: 100%;
+	list-style: none;
+}
+.slider-frame4 img {
+	width: 100%;
+  height: 100%;
 }
 @media(max-width:900px){
   .popup{
