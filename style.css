@@ -15,7 +15,9 @@
   align-items: center;
   flex-direction: column;
   overflow-x: hidden;
-  background-color: #181818;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(38,38,38,1) 100%);
+  z-index: 0;
 }
 
 
@@ -851,7 +853,7 @@ h3{
 }
 .subtituloIndex{
   width: 150px;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   font-weight: 500;
 }
@@ -861,7 +863,7 @@ h3{
   height: 70px;
   align-items: center;
   width: 100%;
-  color: whitesmoke;
+
 }
 .logo{
   margin-left: 8px;
@@ -1239,6 +1241,7 @@ select{
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 20px;
+  margin-top: 70px;
 }
 .imgTT{
   width: 90%;
@@ -1401,14 +1404,20 @@ select{
   background-image: url(./images/fondoPrueba.jpg);
   width: 90%;
   display: flex;
-  justify-content: center;
+  justify-content: baseline;
   flex-direction: column;
   align-items: center;
-  height: 330px;
-
+  height: 450px;
   margin-top: 50px;
   background-repeat: no-repeat;
   background-size: 200%;
+}
+.imgH1 h1{
+  margin-top: 50px;
+}
+.departmentList p{
+  font-size: 17px;
+  text-align: center;
 }
 @media(max-width:900px){
   .popup{
@@ -1432,7 +1441,7 @@ select{
     width: 500px;
   }
   .imgH1{
-    width: 80%;
+    width: 70%;
   }
   .section1{
     height: 1100px;
@@ -1471,17 +1480,24 @@ select{
   }
 }
 @media(min-width:800px){
-  .departmentItem{
-    width: 500px;
-    height: 980px;
-    padding-top: 100px;
+  .infodepartamentos{
+    width: 600px;
   }
+  .infodepartamentos p{
+    width: 100%;
+  }
+
   .imgH1{
     width: 70%;
   }
+  .departmentItem{
+    flex-direction: row;
+    width: 800px;
+    height: 520px;
+  }
   .carousel{
-    margin-bottom: 100px;
-    scale: 130%;
+    margin-right: 50px;
+    margin-bottom: 120px;
   }
   .condominios{
     width: 40%;
@@ -1499,7 +1515,7 @@ select{
   }
   .imgH1{
     background-size: 100%;
-    height: 500px;
+    height: 400px;
   }
 }
  

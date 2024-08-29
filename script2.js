@@ -18,47 +18,47 @@ flagsElement.addEventListener("click", (e) => {
 
 document.getElementById("filtroHB").onclick = function(){
     var elemento = document.getElementById("SI");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("SI1");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("SI2");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("HB");
     if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+        elemento.style.display = "flex";
     }
     var elemento = document.getElementById("HB1");
     if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+        elemento.style.display = "flex";
     }
     var elemento = document.getElementById("HB2");
     if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+        elemento.style.display = "flex";
     }
     var elemento = document.getElementById("HB4");
     if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+        elemento.style.display = "flex";
     }
     var elemento = document.getElementById("NB1");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("NB2");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
@@ -67,49 +67,49 @@ document.getElementById("filtroHB").onclick = function(){
 
 document.getElementById("filtroSI").onclick = function() {
     var elemento = document.getElementById("HB");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("HB4");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("HB1");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("HB2");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
         var elemento = document.getElementById("SI");
     if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+        elemento.style.display = "flex";
     } 
     var elemento = document.getElementById("SI1");
     if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+        elemento.style.display = "flex";
     }
     var elemento = document.getElementById("SI2");
     if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+        elemento.style.display = "flex";
     }
     var elemento = document.getElementById("NB1");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("NB2");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
@@ -118,54 +118,54 @@ document.getElementById("filtroSI").onclick = function() {
 
 document.getElementById("filtroNB").onclick = function() {
     var elemento = document.getElementById("HB");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("HB4");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none"
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("HB1");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("HB2");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("SI");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("SI1");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("SI2");
-    if (elemento.style.display === "block") {
+    if (elemento.style.display === "flex") {
         elemento.style.display = "none";
     } else {
         elemento.style.display = "none";
     }
     var elemento = document.getElementById("NB1");
     if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+        elemento.style.display = "flex";
     }
     var elemento = document.getElementById("NB2");
     if (elemento.style.display === "none") {
-        elemento.style.display = "block";
+        elemento.style.display = "flex";
     }
 };
 
