@@ -17,3 +17,8 @@ flagsElement.addEventListener("click", (e) => {
     changeLanguage(e.target.parentElement.dataset.language)
 })
 
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        document.getElementById('animado').classList.add('desaparecer');
+    }, 5000); // 5000 milisegundos = 5 segundos
+});
